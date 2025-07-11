@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Ejercicio_5.Polideportivo">
+    <Position X="0.5" Y="0.5" Width="4.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAhCACAAAAAEQAAAQAACAARAAIAAAJAAAQAAA=</HashCode>
+      <FileName>Polideportivo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio_5.Alquiler">
+    <Position X="2.5" Y="5" Width="3.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AMAAAAAAAAAEABAAABAAAAAEAgABAAAAAAAQkAAgAAA=</HashCode>
+      <FileName>Alquiler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio_5.Cancha">
+    <Position X="9.5" Y="0.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAQoAAYAAAAABAAABBAAAEEAABAAAAAAAAAAABAAQ=</HashCode>
+      <FileName>Cancha.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio_5.Juez">
+    <Position X="5.25" Y="0.5" Width="4" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAUCAAQEAAAQhAAAAAAAgAAIAAAAwAIAJAA=</HashCode>
+      <FileName>Juez.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio_5.Opcional1">
+    <Position X="7.25" Y="4.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AQAAAAAgAAAEAAAAAABAAAAAACAAAIIAAAAQAAAQAAA=</HashCode>
+      <FileName>Opcional1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio_5.Opcional2">
+    <Position X="10.5" Y="4" Width="3.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AQAAAAEgAAAEAAAAAAAAAAAAAAAAAAAAAAAQwAAAAAA=</HashCode>
+      <FileName>Opcional2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Ejercicio_5.TipoCancha">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAgAIAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>TipoCancha.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

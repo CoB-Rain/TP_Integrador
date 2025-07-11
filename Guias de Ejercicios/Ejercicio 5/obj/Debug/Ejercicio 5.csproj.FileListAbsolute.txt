@@ -1,0 +1,14 @@
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 5\obj\Debug\Ejercicio 5.csproj.AssemblyReference.cache
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 5\obj\Debug\Ejercicio_5.Form1.resources
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 5\obj\Debug\Ejercicio_5.Properties.Resources.resources
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 5\obj\Debug\Ejercicio 5.csproj.GenerateResource.cache
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 5\obj\Debug\Ejercicio 5.csproj.CoreCompileInputs.cache
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 5\bin\Debug\Ejercicio 5.exe.config
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 5\bin\Debug\Ejercicio 5.exe
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 5\bin\Debug\Ejercicio 5.pdb
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 5\obj\Debug\Ejercicio_5.AdministrarPolideportivo.resources
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 5\obj\Debug\Ejercicio_5.CrearAlquiler.resources
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 5\obj\Debug\Ejercicio_5.CrearCancha.resources
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 5\obj\Debug\Ejercicio_5.CrearJuez.resources
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 5\obj\Debug\Ejercicio 5.exe
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 5\obj\Debug\Ejercicio 5.pdb

@@ -1,0 +1,347 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\vistacliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|solutionrelative:vistacliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\vistacliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|solutionrelative:vistacliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\administracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|solutionrelative:administracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\barriles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|solutionrelative:barriles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\administracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|solutionrelative:administracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|c:\\users\\brian\\onedrive\\escritorio\\programacion\\poo\\guias de ejercicios\\ejercicio 4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|c:\\users\\brian\\onedrive\\escritorio\\programacion\\poo\\guias de ejercicios\\ejercicio 4\\barriles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|solutionrelative:barriles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\vaso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|solutionrelative:vaso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\afteroffice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|solutionrelative:afteroffice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\cerveza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|solutionrelative:cerveza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|solutionrelative:classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\negra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|solutionrelative:negra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\rubia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|solutionrelative:rubia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\barril.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|solutionrelative:barril.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\tipovaso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|solutionrelative:tipovaso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\origen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|solutionrelative:origen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\sabor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|solutionrelative:sabor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 23,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ClassDiagram1.cd",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\ClassDiagram1.cd",
+              "RelativeDocumentMoniker": "ClassDiagram1.cd",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\ClassDiagram1.cd",
+              "RelativeToolTip": "ClassDiagram1.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2025-06-14T16:47:25.287Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T05:27:50.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AfterOffice.cs",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\AfterOffice.cs",
+              "RelativeDocumentMoniker": "AfterOffice.cs",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\AfterOffice.cs",
+              "RelativeToolTip": "AfterOffice.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAASwIkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T19:15:37.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Barril.cs",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\Barril.cs",
+              "RelativeDocumentMoniker": "Barril.cs",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\Barril.cs",
+              "RelativeToolTip": "Barril.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T18:32:23.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Cerveza.cs",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\Cerveza.cs",
+              "RelativeDocumentMoniker": "Cerveza.cs",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\Cerveza.cs",
+              "RelativeToolTip": "Cerveza.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T17:09:00.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Rubia.cs",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\Rubia.cs",
+              "RelativeDocumentMoniker": "Rubia.cs",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\Rubia.cs",
+              "RelativeToolTip": "Rubia.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T18:07:54.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Negra.cs",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\Negra.cs",
+              "RelativeDocumentMoniker": "Negra.cs",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\Negra.cs",
+              "RelativeToolTip": "Negra.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T18:09:09.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Sabor.cs",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\Sabor.cs",
+              "RelativeDocumentMoniker": "Sabor.cs",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\Sabor.cs",
+              "RelativeToolTip": "Sabor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T04:46:42.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Origen.cs",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\Origen.cs",
+              "RelativeDocumentMoniker": "Origen.cs",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\Origen.cs",
+              "RelativeToolTip": "Origen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T17:03:44.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Vaso.cs",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\Vaso.cs",
+              "RelativeDocumentMoniker": "Vaso.cs",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\Vaso.cs",
+              "RelativeToolTip": "Vaso.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwCMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T17:05:28.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TipoVaso.cs",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\TipoVaso.cs",
+              "RelativeDocumentMoniker": "TipoVaso.cs",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\TipoVaso.cs",
+              "RelativeToolTip": "TipoVaso.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T17:04:42.375Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 293,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAYwDYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T16:47:35.574Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T16:47:17.929Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VistaCliente.cs",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\VistaCliente.cs",
+              "RelativeDocumentMoniker": "VistaCliente.cs",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\VistaCliente.cs",
+              "RelativeToolTip": "VistaCliente.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAwwIQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T02:40:57.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VistaCliente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\VistaCliente.cs",
+              "RelativeDocumentMoniker": "VistaCliente.cs",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\VistaCliente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "VistaCliente.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T02:40:54.939Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Administracion.cs",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\Administracion.cs",
+              "RelativeDocumentMoniker": "Administracion.cs",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\Administracion.cs",
+              "RelativeToolTip": "Administracion.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAApwGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T02:42:36.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Administracion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\Administracion.cs",
+              "RelativeDocumentMoniker": "Administracion.cs",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\Administracion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Administracion.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T02:42:33.566Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Barriles.cs",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\Barriles.cs",
+              "RelativeDocumentMoniker": "Barriles.cs",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\Barriles.cs",
+              "RelativeToolTip": "Barriles.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T02:44:16.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Barriles.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\Barriles.cs",
+              "RelativeDocumentMoniker": "Barriles.cs",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\Guias de Ejercicios\\Ejercicio 4\\Barriles.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Barriles.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T02:44:13.635Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\Ejercicio 2\bin\Debug\Ejercicio 2.exe.config
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\Ejercicio 2\bin\Debug\Ejercicio 2.exe
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\Ejercicio 2\bin\Debug\Ejercicio 2.pdb
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\Ejercicio 2\obj\Debug\Ejercicio 2.csproj.AssemblyReference.cache
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\Ejercicio 2\obj\Debug\Ejercicio_2.Properties.Resources.resources
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\Ejercicio 2\obj\Debug\Ejercicio 2.csproj.GenerateResource.cache
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\Ejercicio 2\obj\Debug\Ejercicio 2.csproj.CoreCompileInputs.cache
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\Ejercicio 2\obj\Debug\Ejercicio 2.exe
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\Ejercicio 2\obj\Debug\Ejercicio 2.pdb
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\Ejercicio 2\obj\Debug\Ejercicio_2.Ventas.resources
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\Ejercicio 2\obj\Debug\Ejercicio_2.Administración.resources
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 2\bin\Debug\Ejercicio 2.exe.config
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 2\bin\Debug\Ejercicio 2.exe
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 2\bin\Debug\Ejercicio 2.pdb
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 2\obj\Debug\Ejercicio 2.csproj.AssemblyReference.cache
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 2\obj\Debug\Ejercicio_2.Ventas.resources
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 2\obj\Debug\Ejercicio_2.Administración.resources
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 2\obj\Debug\Ejercicio_2.Properties.Resources.resources
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 2\obj\Debug\Ejercicio 2.csproj.GenerateResource.cache
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 2\obj\Debug\Ejercicio 2.csproj.CoreCompileInputs.cache
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 2\obj\Debug\Ejercicio 2.exe
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 2\obj\Debug\Ejercicio 2.pdb

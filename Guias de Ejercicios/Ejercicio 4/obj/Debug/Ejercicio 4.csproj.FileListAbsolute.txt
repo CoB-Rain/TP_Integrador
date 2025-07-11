@@ -1,0 +1,26 @@
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 4\bin\Debug\Ejercicio 4.exe.config
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 4\bin\Debug\Ejercicio 4.exe
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 4\bin\Debug\Ejercicio 4.pdb
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 4\obj\Debug\Ejercicio 4.csproj.AssemblyReference.cache
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 4\obj\Debug\Ejercicio_4.Form1.resources
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 4\obj\Debug\Ejercicio_4.Properties.Resources.resources
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 4\obj\Debug\Ejercicio 4.csproj.GenerateResource.cache
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 4\obj\Debug\Ejercicio 4.csproj.CoreCompileInputs.cache
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 4\obj\Debug\Ejercicio 4.exe
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 4\obj\Debug\Ejercicio 4.pdb
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 4\obj\Debug\Ejercicio_4.Administracion.resources
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 4\obj\Debug\Ejercicio_4.Barriles.resources
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 4\obj\Debug\Ejercicio_4.VistaCliente.resources
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\Guias de Ejercicios\Ejercicio 4\bin\Debug\Ejercicio 4.exe.config
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\Guias de Ejercicios\Ejercicio 4\bin\Debug\Ejercicio 4.exe
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\Guias de Ejercicios\Ejercicio 4\bin\Debug\Ejercicio 4.pdb
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\Guias de Ejercicios\Ejercicio 4\obj\Debug\Ejercicio 4.csproj.AssemblyReference.cache
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\Guias de Ejercicios\Ejercicio 4\obj\Debug\Ejercicio_4.Administracion.resources
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\Guias de Ejercicios\Ejercicio 4\obj\Debug\Ejercicio_4.Barriles.resources
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\Guias de Ejercicios\Ejercicio 4\obj\Debug\Ejercicio_4.Form1.resources
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\Guias de Ejercicios\Ejercicio 4\obj\Debug\Ejercicio_4.Properties.Resources.resources
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\Guias de Ejercicios\Ejercicio 4\obj\Debug\Ejercicio_4.VistaCliente.resources
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\Guias de Ejercicios\Ejercicio 4\obj\Debug\Ejercicio 4.csproj.GenerateResource.cache
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\Guias de Ejercicios\Ejercicio 4\obj\Debug\Ejercicio 4.csproj.CoreCompileInputs.cache
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\Guias de Ejercicios\Ejercicio 4\obj\Debug\Ejercicio 4.exe
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\Guias de Ejercicios\Ejercicio 4\obj\Debug\Ejercicio 4.pdb
