@@ -1,0 +1,17 @@
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 6\bin\Debug\Ejercicio 6.exe.config
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 6\bin\Debug\Ejercicio 6.exe
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 6\bin\Debug\Ejercicio 6.pdb
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 6\bin\Debug\HotelDLL.dll
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 6\bin\Debug\HotelDLL.pdb
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 6\obj\Debug\Ejercicio 6.csproj.AssemblyReference.cache
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 6\obj\Debug\Ejercicio_6.Form1.resources
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 6\obj\Debug\Ejercicio_6.Properties.Resources.resources
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 6\obj\Debug\Ejercicio 6.csproj.GenerateResource.cache
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 6\obj\Debug\Ejercicio 6.csproj.CoreCompileInputs.cache
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 6\obj\Debug\Ejercici.9FA84774.Up2Date
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 6\obj\Debug\Ejercicio 6.exe
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 6\obj\Debug\Ejercicio 6.pdb
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 6\obj\Debug\Ejercicio_6.AdministraciónHotel.resources
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 6\obj\Debug\Ejercicio_6.GestionHabitaciones.resources
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 6\obj\Debug\Ejercicio_6.GestionHuespedes.resources
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 6\obj\Debug\Ejercicio_6.GestionReservas.resources

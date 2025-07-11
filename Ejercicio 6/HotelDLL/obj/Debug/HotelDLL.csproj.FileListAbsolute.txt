@@ -1,0 +1,6 @@
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 6\HotelDLL\bin\Debug\HotelDLL.dll
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 6\HotelDLL\bin\Debug\HotelDLL.pdb
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 6\HotelDLL\obj\Debug\HotelDLL.csproj.AssemblyReference.cache
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 6\HotelDLL\obj\Debug\HotelDLL.csproj.CoreCompileInputs.cache
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 6\HotelDLL\obj\Debug\HotelDLL.dll
+C:\Users\brian\OneDrive\Escritorio\Programacion\POO\TP Integrador\Ejercicio 6\HotelDLL\obj\Debug\HotelDLL.pdb
