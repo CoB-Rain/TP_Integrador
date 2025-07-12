@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Guias de Ejercicios\\Ejercicio 4\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|c:\\users\\brian\\onedrive\\escritorio\\programacion\\poo\\tp_integrador\\guias de ejercicios\\ejercicio 4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|c:\\users\\brian\\onedrive\\escritorio\\programacion\\poo\\tp_integrador\\guias de ejercicios\\ejercicio 4\\vistacliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|solutionrelative:vistacliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Guias de Ejercicios\\Ejercicio 4\\vistacliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|solutionrelative:vistacliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|c:\\users\\brian\\onedrive\\escritorio\\programacion\\poo\\tp_integrador\\guias de ejercicios\\ejercicio 4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B9FC6F4-3E6B-41DD-BD7B-31C55BD36586}|Ejercicio 4.csproj|C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Guias de Ejercicios\\Ejercicio 4\\administracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -102,13 +102,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Guias de Ejercicios\\Ejercicio 4\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Guias de Ejercicios\\Ejercicio 4\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-06T05:27:50.582Z",
               "EditorCaption": ""
@@ -266,7 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "VistaCliente.cs",
               "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Guias de Ejercicios\\Ejercicio 4\\VistaCliente.cs",
               "RelativeDocumentMoniker": "VistaCliente.cs",
@@ -279,15 +279,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "VistaCliente.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Guias de Ejercicios\\Ejercicio 4\\VistaCliente.cs",
               "RelativeDocumentMoniker": "VistaCliente.cs",
               "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Guias de Ejercicios\\Ejercicio 4\\VistaCliente.cs [Dise\u00F1o]",
               "RelativeToolTip": "VistaCliente.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T02:40:54.939Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-06-15T02:40:54.939Z"
             },
             {
               "$type": "Document",
