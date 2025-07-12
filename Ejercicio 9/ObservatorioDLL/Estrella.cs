@@ -8,7 +8,7 @@ namespace ObservatorioDLL
 {
     public class Estrella : CuerpoCeleste, IConstelacion
     {
-        public Estrella(string nombre, int edad, int masa, int temperatura, int diametro, Color color, TipoEstrella tipo) : base(nombre, edad, masa)
+        public Estrella(string nombre, int edad, int masa, double temperatura, int diametro, Color color, TipoEstrella tipo) : base(nombre, edad, masa)
         {
             _temperatura = temperatura;
             _diametro = diametro;

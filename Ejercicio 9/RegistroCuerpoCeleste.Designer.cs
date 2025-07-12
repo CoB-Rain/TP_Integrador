@@ -29,38 +29,75 @@
         private void InitializeComponent()
         {
             this.tabEditarEstrella = new System.Windows.Forms.TabPage();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.btnAsignarConstelación = new System.Windows.Forms.Button();
+            this.btnCrearConstelacion = new System.Windows.Forms.Button();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.lstConstelaciones = new System.Windows.Forms.ListBox();
+            this.txtNuevaConstelacion = new System.Windows.Forms.TextBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.txtConstelacion = new System.Windows.Forms.TextBox();
+            this.btnEditarEstrella = new System.Windows.Forms.Button();
+            this.checkConstelacion = new System.Windows.Forms.CheckBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.cmbTipoEstrella = new System.Windows.Forms.ComboBox();
+            this.cmbColorEstrella = new System.Windows.Forms.ComboBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txtDiametroEstrella = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txtTemperaturaEstrella = new System.Windows.Forms.TextBox();
             this.tabCargaCuerpoCeleste = new System.Windows.Forms.TabPage();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.cmbObservadorCarga = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.cmbCuerpoCelesteCarga = new System.Windows.Forms.ComboBox();
-            this.txtNombre = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtEdad = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtMasa = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.btnCargar = new System.Windows.Forms.Button();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtMasaAEditar = new System.Windows.Forms.TextBox();
+            this.txtCuerpoCelesteAEditar = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
             this.btnEditar = new System.Windows.Forms.Button();
+            this.txtEdadAEditar = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.txtNombreAEditar = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.rdDefault = new System.Windows.Forms.RadioButton();
+            this.rdSatelite = new System.Windows.Forms.RadioButton();
+            this.rdPlaneta = new System.Windows.Forms.RadioButton();
+            this.rdEstrella = new System.Windows.Forms.RadioButton();
             this.dgvObjetosEncontrados = new System.Windows.Forms.DataGridView();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnCargar = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtMasa = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtEdad = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.cmbCuerpoCelesteCarga = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.cmbObservadorCarga = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabEditarPlaneta = new System.Windows.Forms.TabPage();
             this.tabEditarSatelite = new System.Windows.Forms.TabPage();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.txtCuerpoCelesteAEditar = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
+            this.tabEditarEstrella.SuspendLayout();
+            this.groupBox5.SuspendLayout();
+            this.groupBox4.SuspendLayout();
             this.tabCargaCuerpoCeleste.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvObjetosEncontrados)).BeginInit();
-            this.tabControl1.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvObjetosEncontrados)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            this.tabControl1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabEditarEstrella
             // 
+            this.tabEditarEstrella.Controls.Add(this.groupBox5);
+            this.tabEditarEstrella.Controls.Add(this.groupBox4);
             this.tabEditarEstrella.Location = new System.Drawing.Point(4, 33);
             this.tabEditarEstrella.Name = "tabEditarEstrella";
             this.tabEditarEstrella.Padding = new System.Windows.Forms.Padding(3);
@@ -68,6 +105,202 @@
             this.tabEditarEstrella.TabIndex = 1;
             this.tabEditarEstrella.Text = "Editar Estrella";
             this.tabEditarEstrella.UseVisualStyleBackColor = true;
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.btnAsignarConstelación);
+            this.groupBox5.Controls.Add(this.btnCrearConstelacion);
+            this.groupBox5.Controls.Add(this.label12);
+            this.groupBox5.Controls.Add(this.label11);
+            this.groupBox5.Controls.Add(this.lstConstelaciones);
+            this.groupBox5.Controls.Add(this.txtNuevaConstelacion);
+            this.groupBox5.Location = new System.Drawing.Point(771, 66);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(533, 424);
+            this.groupBox5.TabIndex = 1;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Constelación";
+            this.groupBox5.Visible = false;
+            // 
+            // btnAsignarConstelación
+            // 
+            this.btnAsignarConstelación.Location = new System.Drawing.Point(276, 362);
+            this.btnAsignarConstelación.Name = "btnAsignarConstelación";
+            this.btnAsignarConstelación.Size = new System.Drawing.Size(131, 56);
+            this.btnAsignarConstelación.TabIndex = 20;
+            this.btnAsignarConstelación.Text = "Asignar";
+            this.btnAsignarConstelación.UseVisualStyleBackColor = true;
+            this.btnAsignarConstelación.Click += new System.EventHandler(this.btnAsignarConstelación_Click);
+            // 
+            // btnCrearConstelacion
+            // 
+            this.btnCrearConstelacion.Location = new System.Drawing.Point(139, 362);
+            this.btnCrearConstelacion.Name = "btnCrearConstelacion";
+            this.btnCrearConstelacion.Size = new System.Drawing.Size(131, 56);
+            this.btnCrearConstelacion.TabIndex = 19;
+            this.btnCrearConstelacion.Text = "Crear";
+            this.btnCrearConstelacion.UseVisualStyleBackColor = true;
+            this.btnCrearConstelacion.Click += new System.EventHandler(this.btnCrearConstelacion_Click);
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(161, 300);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(224, 24);
+            this.label12.TabIndex = 18;
+            this.label12.Text = "Crear nueva constelación";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(50, 330);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(84, 24);
+            this.label11.TabIndex = 17;
+            this.label11.Text = "Nombre:";
+            // 
+            // lstConstelaciones
+            // 
+            this.lstConstelaciones.FormattingEnabled = true;
+            this.lstConstelaciones.ItemHeight = 24;
+            this.lstConstelaciones.Location = new System.Drawing.Point(6, 28);
+            this.lstConstelaciones.Name = "lstConstelaciones";
+            this.lstConstelaciones.Size = new System.Drawing.Size(521, 268);
+            this.lstConstelaciones.TabIndex = 0;
+            // 
+            // txtNuevaConstelacion
+            // 
+            this.txtNuevaConstelacion.Location = new System.Drawing.Point(139, 327);
+            this.txtNuevaConstelacion.Name = "txtNuevaConstelacion";
+            this.txtNuevaConstelacion.Size = new System.Drawing.Size(268, 29);
+            this.txtNuevaConstelacion.TabIndex = 16;
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.label13);
+            this.groupBox4.Controls.Add(this.txtConstelacion);
+            this.groupBox4.Controls.Add(this.btnEditarEstrella);
+            this.groupBox4.Controls.Add(this.checkConstelacion);
+            this.groupBox4.Controls.Add(this.label10);
+            this.groupBox4.Controls.Add(this.label9);
+            this.groupBox4.Controls.Add(this.cmbTipoEstrella);
+            this.groupBox4.Controls.Add(this.cmbColorEstrella);
+            this.groupBox4.Controls.Add(this.label8);
+            this.groupBox4.Controls.Add(this.txtDiametroEstrella);
+            this.groupBox4.Controls.Add(this.label7);
+            this.groupBox4.Controls.Add(this.txtTemperaturaEstrella);
+            this.groupBox4.Location = new System.Drawing.Point(110, 144);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(631, 296);
+            this.groupBox4.TabIndex = 0;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Menu Edición";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(6, 179);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(124, 24);
+            this.label13.TabIndex = 22;
+            this.label13.Text = "Constelación:";
+            // 
+            // txtConstelacion
+            // 
+            this.txtConstelacion.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.txtConstelacion.Location = new System.Drawing.Point(138, 176);
+            this.txtConstelacion.Name = "txtConstelacion";
+            this.txtConstelacion.ReadOnly = true;
+            this.txtConstelacion.Size = new System.Drawing.Size(222, 29);
+            this.txtConstelacion.TabIndex = 21;
+            // 
+            // btnEditarEstrella
+            // 
+            this.btnEditarEstrella.Location = new System.Drawing.Point(180, 227);
+            this.btnEditarEstrella.Name = "btnEditarEstrella";
+            this.btnEditarEstrella.Size = new System.Drawing.Size(131, 56);
+            this.btnEditarEstrella.TabIndex = 20;
+            this.btnEditarEstrella.Text = "Editar";
+            this.btnEditarEstrella.UseVisualStyleBackColor = true;
+            this.btnEditarEstrella.Click += new System.EventHandler(this.btnEditarEstrella_Click);
+            // 
+            // checkConstelacion
+            // 
+            this.checkConstelacion.AutoSize = true;
+            this.checkConstelacion.Location = new System.Drawing.Point(477, 255);
+            this.checkConstelacion.Name = "checkConstelacion";
+            this.checkConstelacion.Size = new System.Drawing.Size(148, 28);
+            this.checkConstelacion.TabIndex = 15;
+            this.checkConstelacion.Text = "Constelación?";
+            this.checkConstelacion.UseVisualStyleBackColor = true;
+            this.checkConstelacion.CheckedChanged += new System.EventHandler(this.checkConstelacion_CheckedChanged);
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(8, 141);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(53, 24);
+            this.label10.TabIndex = 14;
+            this.label10.Text = "Tipo:";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(8, 103);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(60, 24);
+            this.label9.TabIndex = 13;
+            this.label9.Text = "Color:";
+            // 
+            // cmbTipoEstrella
+            // 
+            this.cmbTipoEstrella.FormattingEnabled = true;
+            this.cmbTipoEstrella.Location = new System.Drawing.Point(137, 138);
+            this.cmbTipoEstrella.Name = "cmbTipoEstrella";
+            this.cmbTipoEstrella.Size = new System.Drawing.Size(222, 32);
+            this.cmbTipoEstrella.TabIndex = 12;
+            // 
+            // cmbColorEstrella
+            // 
+            this.cmbColorEstrella.FormattingEnabled = true;
+            this.cmbColorEstrella.Location = new System.Drawing.Point(137, 100);
+            this.cmbColorEstrella.Name = "cmbColorEstrella";
+            this.cmbColorEstrella.Size = new System.Drawing.Size(222, 32);
+            this.cmbColorEstrella.TabIndex = 11;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(8, 67);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(90, 24);
+            this.label8.TabIndex = 10;
+            this.label8.Text = "Diametro:";
+            // 
+            // txtDiametroEstrella
+            // 
+            this.txtDiametroEstrella.Location = new System.Drawing.Point(137, 64);
+            this.txtDiametroEstrella.Name = "txtDiametroEstrella";
+            this.txtDiametroEstrella.Size = new System.Drawing.Size(222, 29);
+            this.txtDiametroEstrella.TabIndex = 9;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(8, 32);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(123, 24);
+            this.label7.TabIndex = 8;
+            this.label7.Text = "Temperatura:";
+            // 
+            // txtTemperaturaEstrella
+            // 
+            this.txtTemperaturaEstrella.Location = new System.Drawing.Point(137, 29);
+            this.txtTemperaturaEstrella.Name = "txtTemperaturaEstrella";
+            this.txtTemperaturaEstrella.Size = new System.Drawing.Size(222, 29);
+            this.txtTemperaturaEstrella.TabIndex = 7;
             // 
             // tabCargaCuerpoCeleste
             // 
@@ -81,6 +314,180 @@
             this.tabCargaCuerpoCeleste.TabIndex = 0;
             this.tabCargaCuerpoCeleste.Text = "Carga cuerpo celeste";
             this.tabCargaCuerpoCeleste.UseVisualStyleBackColor = true;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.label14);
+            this.groupBox3.Controls.Add(this.label6);
+            this.groupBox3.Controls.Add(this.txtMasaAEditar);
+            this.groupBox3.Controls.Add(this.txtCuerpoCelesteAEditar);
+            this.groupBox3.Controls.Add(this.label15);
+            this.groupBox3.Controls.Add(this.btnEditar);
+            this.groupBox3.Controls.Add(this.txtEdadAEditar);
+            this.groupBox3.Controls.Add(this.label16);
+            this.groupBox3.Controls.Add(this.txtNombreAEditar);
+            this.groupBox3.Location = new System.Drawing.Point(7, 369);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(603, 203);
+            this.groupBox3.TabIndex = 2;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Editar objeto";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(285, 127);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(60, 24);
+            this.label14.TabIndex = 17;
+            this.label14.Text = "Masa:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(31, 54);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(209, 24);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "Cuerpo celeste a editar:";
+            // 
+            // txtMasaAEditar
+            // 
+            this.txtMasaAEditar.Location = new System.Drawing.Point(375, 127);
+            this.txtMasaAEditar.Name = "txtMasaAEditar";
+            this.txtMasaAEditar.Size = new System.Drawing.Size(222, 29);
+            this.txtMasaAEditar.TabIndex = 16;
+            // 
+            // txtCuerpoCelesteAEditar
+            // 
+            this.txtCuerpoCelesteAEditar.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.txtCuerpoCelesteAEditar.Location = new System.Drawing.Point(17, 81);
+            this.txtCuerpoCelesteAEditar.Name = "txtCuerpoCelesteAEditar";
+            this.txtCuerpoCelesteAEditar.ReadOnly = true;
+            this.txtCuerpoCelesteAEditar.Size = new System.Drawing.Size(240, 29);
+            this.txtCuerpoCelesteAEditar.TabIndex = 12;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(285, 92);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(60, 24);
+            this.label15.TabIndex = 15;
+            this.label15.Text = "Edad:";
+            // 
+            // btnEditar
+            // 
+            this.btnEditar.Location = new System.Drawing.Point(67, 126);
+            this.btnEditar.Name = "btnEditar";
+            this.btnEditar.Size = new System.Drawing.Size(130, 54);
+            this.btnEditar.TabIndex = 12;
+            this.btnEditar.Text = "Editar";
+            this.btnEditar.UseVisualStyleBackColor = true;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
+            // 
+            // txtEdadAEditar
+            // 
+            this.txtEdadAEditar.Location = new System.Drawing.Point(375, 92);
+            this.txtEdadAEditar.Name = "txtEdadAEditar";
+            this.txtEdadAEditar.Size = new System.Drawing.Size(222, 29);
+            this.txtEdadAEditar.TabIndex = 14;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(285, 57);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(84, 24);
+            this.label16.TabIndex = 13;
+            this.label16.Text = "Nombre:";
+            // 
+            // txtNombreAEditar
+            // 
+            this.txtNombreAEditar.Location = new System.Drawing.Point(375, 57);
+            this.txtNombreAEditar.Name = "txtNombreAEditar";
+            this.txtNombreAEditar.Size = new System.Drawing.Size(222, 29);
+            this.txtNombreAEditar.TabIndex = 12;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.groupBox6);
+            this.groupBox2.Controls.Add(this.dgvObjetosEncontrados);
+            this.groupBox2.Location = new System.Drawing.Point(616, 7);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(813, 565);
+            this.groupBox2.TabIndex = 1;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Objetos encontrados";
+            // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(this.rdDefault);
+            this.groupBox6.Controls.Add(this.rdSatelite);
+            this.groupBox6.Controls.Add(this.rdPlaneta);
+            this.groupBox6.Controls.Add(this.rdEstrella);
+            this.groupBox6.Location = new System.Drawing.Point(249, 490);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(400, 69);
+            this.groupBox6.TabIndex = 3;
+            this.groupBox6.TabStop = false;
+            this.groupBox6.Text = "Filtros";
+            // 
+            // rdDefault
+            // 
+            this.rdDefault.AutoSize = true;
+            this.rdDefault.Checked = true;
+            this.rdDefault.Location = new System.Drawing.Point(24, 28);
+            this.rdDefault.Name = "rdDefault";
+            this.rdDefault.Size = new System.Drawing.Size(85, 28);
+            this.rdDefault.TabIndex = 3;
+            this.rdDefault.TabStop = true;
+            this.rdDefault.Text = "Default";
+            this.rdDefault.UseVisualStyleBackColor = true;
+            this.rdDefault.CheckedChanged += new System.EventHandler(this.rdDefault_CheckedChanged);
+            // 
+            // rdSatelite
+            // 
+            this.rdSatelite.AutoSize = true;
+            this.rdSatelite.Location = new System.Drawing.Point(306, 28);
+            this.rdSatelite.Name = "rdSatelite";
+            this.rdSatelite.Size = new System.Drawing.Size(88, 28);
+            this.rdSatelite.TabIndex = 2;
+            this.rdSatelite.Text = "Satelite";
+            this.rdSatelite.UseVisualStyleBackColor = true;
+            this.rdSatelite.CheckedChanged += new System.EventHandler(this.rdSatelite_CheckedChanged);
+            // 
+            // rdPlaneta
+            // 
+            this.rdPlaneta.AutoSize = true;
+            this.rdPlaneta.Location = new System.Drawing.Point(210, 28);
+            this.rdPlaneta.Name = "rdPlaneta";
+            this.rdPlaneta.Size = new System.Drawing.Size(90, 28);
+            this.rdPlaneta.TabIndex = 1;
+            this.rdPlaneta.Text = "Planeta";
+            this.rdPlaneta.UseVisualStyleBackColor = true;
+            this.rdPlaneta.CheckedChanged += new System.EventHandler(this.rdPlaneta_CheckedChanged);
+            // 
+            // rdEstrella
+            // 
+            this.rdEstrella.AutoSize = true;
+            this.rdEstrella.Location = new System.Drawing.Point(115, 28);
+            this.rdEstrella.Name = "rdEstrella";
+            this.rdEstrella.Size = new System.Drawing.Size(89, 28);
+            this.rdEstrella.TabIndex = 0;
+            this.rdEstrella.Text = "Estrella";
+            this.rdEstrella.UseVisualStyleBackColor = true;
+            this.rdEstrella.CheckedChanged += new System.EventHandler(this.rdEstrella_CheckedChanged);
+            // 
+            // dgvObjetosEncontrados
+            // 
+            this.dgvObjetosEncontrados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvObjetosEncontrados.Location = new System.Drawing.Point(7, 29);
+            this.dgvObjetosEncontrados.MultiSelect = false;
+            this.dgvObjetosEncontrados.Name = "dgvObjetosEncontrados";
+            this.dgvObjetosEncontrados.Size = new System.Drawing.Size(800, 455);
+            this.dgvObjetosEncontrados.TabIndex = 0;
+            this.dgvObjetosEncontrados.SelectionChanged += new System.EventHandler(this.dgvObjetosEncontrados_SelectionChanged);
             // 
             // groupBox1
             // 
@@ -102,88 +509,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos";
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(14, 100);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(252, 24);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Observador que lo encontro:";
-            // 
-            // cmbObservadorCarga
-            // 
-            this.cmbObservadorCarga.FormattingEnabled = true;
-            this.cmbObservadorCarga.Location = new System.Drawing.Point(18, 128);
-            this.cmbObservadorCarga.Name = "cmbObservadorCarga";
-            this.cmbObservadorCarga.Size = new System.Drawing.Size(248, 32);
-            this.cmbObservadorCarga.TabIndex = 2;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(14, 30);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(244, 24);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Cuerpo celeste encontrado:";
-            // 
-            // cmbCuerpoCelesteCarga
-            // 
-            this.cmbCuerpoCelesteCarga.FormattingEnabled = true;
-            this.cmbCuerpoCelesteCarga.Location = new System.Drawing.Point(18, 57);
-            this.cmbCuerpoCelesteCarga.Name = "cmbCuerpoCelesteCarga";
-            this.cmbCuerpoCelesteCarga.Size = new System.Drawing.Size(248, 32);
-            this.cmbCuerpoCelesteCarga.TabIndex = 4;
-            // 
-            // txtNombre
-            // 
-            this.txtNombre.Location = new System.Drawing.Point(104, 196);
-            this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(222, 29);
-            this.txtNombre.TabIndex = 5;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(14, 196);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(84, 24);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Nombre:";
-            // 
-            // txtEdad
-            // 
-            this.txtEdad.Location = new System.Drawing.Point(104, 231);
-            this.txtEdad.Name = "txtEdad";
-            this.txtEdad.Size = new System.Drawing.Size(222, 29);
-            this.txtEdad.TabIndex = 7;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(14, 231);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(60, 24);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "Edad:";
-            // 
-            // txtMasa
-            // 
-            this.txtMasa.Location = new System.Drawing.Point(104, 266);
-            this.txtMasa.Name = "txtMasa";
-            this.txtMasa.Size = new System.Drawing.Size(222, 29);
-            this.txtMasa.TabIndex = 9;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(14, 266);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(60, 24);
-            this.label5.TabIndex = 10;
-            this.label5.Text = "Masa:";
-            // 
             // btnCargar
             // 
             this.btnCargar.Location = new System.Drawing.Point(394, 216);
@@ -194,35 +519,87 @@
             this.btnCargar.UseVisualStyleBackColor = true;
             this.btnCargar.Click += new System.EventHandler(this.btnCargar_Click);
             // 
-            // btnEditar
+            // label5
             // 
-            this.btnEditar.Location = new System.Drawing.Point(67, 126);
-            this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(130, 54);
-            this.btnEditar.TabIndex = 12;
-            this.btnEditar.Text = "Editar";
-            this.btnEditar.UseVisualStyleBackColor = true;
-            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(14, 266);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(60, 24);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "Masa:";
             // 
-            // groupBox2
+            // txtMasa
             // 
-            this.groupBox2.Controls.Add(this.dgvObjetosEncontrados);
-            this.groupBox2.Location = new System.Drawing.Point(616, 7);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(813, 565);
-            this.groupBox2.TabIndex = 1;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Objetos encontrados";
+            this.txtMasa.Location = new System.Drawing.Point(104, 266);
+            this.txtMasa.Name = "txtMasa";
+            this.txtMasa.Size = new System.Drawing.Size(222, 29);
+            this.txtMasa.TabIndex = 9;
             // 
-            // dgvObjetosEncontrados
+            // label4
             // 
-            this.dgvObjetosEncontrados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvObjetosEncontrados.Location = new System.Drawing.Point(7, 29);
-            this.dgvObjetosEncontrados.MultiSelect = false;
-            this.dgvObjetosEncontrados.Name = "dgvObjetosEncontrados";
-            this.dgvObjetosEncontrados.Size = new System.Drawing.Size(800, 530);
-            this.dgvObjetosEncontrados.TabIndex = 0;
-            this.dgvObjetosEncontrados.SelectionChanged += new System.EventHandler(this.dgvObjetosEncontrados_SelectionChanged);
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(14, 231);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(60, 24);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Edad:";
+            // 
+            // txtEdad
+            // 
+            this.txtEdad.Location = new System.Drawing.Point(104, 231);
+            this.txtEdad.Name = "txtEdad";
+            this.txtEdad.Size = new System.Drawing.Size(222, 29);
+            this.txtEdad.TabIndex = 7;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(14, 196);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(84, 24);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Nombre:";
+            // 
+            // txtNombre
+            // 
+            this.txtNombre.Location = new System.Drawing.Point(104, 196);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(222, 29);
+            this.txtNombre.TabIndex = 5;
+            // 
+            // cmbCuerpoCelesteCarga
+            // 
+            this.cmbCuerpoCelesteCarga.FormattingEnabled = true;
+            this.cmbCuerpoCelesteCarga.Location = new System.Drawing.Point(18, 57);
+            this.cmbCuerpoCelesteCarga.Name = "cmbCuerpoCelesteCarga";
+            this.cmbCuerpoCelesteCarga.Size = new System.Drawing.Size(248, 32);
+            this.cmbCuerpoCelesteCarga.TabIndex = 4;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(14, 30);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(244, 24);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Cuerpo celeste encontrado:";
+            // 
+            // cmbObservadorCarga
+            // 
+            this.cmbObservadorCarga.FormattingEnabled = true;
+            this.cmbObservadorCarga.Location = new System.Drawing.Point(18, 128);
+            this.cmbObservadorCarga.Name = "cmbObservadorCarga";
+            this.cmbObservadorCarga.Size = new System.Drawing.Size(248, 32);
+            this.cmbObservadorCarga.TabIndex = 2;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(14, 100);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(252, 24);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Observador que lo encontro:";
             // 
             // tabControl1
             // 
@@ -255,36 +632,6 @@
             this.tabEditarSatelite.Text = "Editar Satelite";
             this.tabEditarSatelite.UseVisualStyleBackColor = true;
             // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.label6);
-            this.groupBox3.Controls.Add(this.txtCuerpoCelesteAEditar);
-            this.groupBox3.Controls.Add(this.btnEditar);
-            this.groupBox3.Location = new System.Drawing.Point(334, 369);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(276, 203);
-            this.groupBox3.TabIndex = 2;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Editar objeto";
-            // 
-            // txtCuerpoCelesteAEditar
-            // 
-            this.txtCuerpoCelesteAEditar.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.txtCuerpoCelesteAEditar.Location = new System.Drawing.Point(17, 81);
-            this.txtCuerpoCelesteAEditar.Name = "txtCuerpoCelesteAEditar";
-            this.txtCuerpoCelesteAEditar.ReadOnly = true;
-            this.txtCuerpoCelesteAEditar.Size = new System.Drawing.Size(240, 29);
-            this.txtCuerpoCelesteAEditar.TabIndex = 12;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(31, 54);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(209, 24);
-            this.label6.TabIndex = 12;
-            this.label6.Text = "Cuerpo celeste a editar:";
-            // 
             // RegistroCuerpoCeleste
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
@@ -296,14 +643,21 @@
             this.Name = "RegistroCuerpoCeleste";
             this.Text = "RegistroCuerpoCeleste";
             this.Load += new System.EventHandler(this.RegistroCuerpoCeleste_Load);
+            this.tabEditarEstrella.ResumeLayout(false);
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
             this.tabCargaCuerpoCeleste.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvObjetosEncontrados)).EndInit();
-            this.tabControl1.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvObjetosEncontrados)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.tabControl1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -333,5 +687,36 @@
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtCuerpoCelesteAEditar;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox txtTemperaturaEstrella;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox txtDiametroEstrella;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.ComboBox cmbTipoEstrella;
+        private System.Windows.Forms.ComboBox cmbColorEstrella;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox txtNuevaConstelacion;
+        private System.Windows.Forms.CheckBox checkConstelacion;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.ListBox lstConstelaciones;
+        private System.Windows.Forms.Button btnCrearConstelacion;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Button btnAsignarConstelación;
+        private System.Windows.Forms.Button btnEditarEstrella;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.TextBox txtConstelacion;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.TextBox txtMasaAEditar;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.TextBox txtEdadAEditar;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.TextBox txtNombreAEditar;
+        private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.RadioButton rdSatelite;
+        private System.Windows.Forms.RadioButton rdPlaneta;
+        private System.Windows.Forms.RadioButton rdEstrella;
+        private System.Windows.Forms.RadioButton rdDefault;
     }
 }
