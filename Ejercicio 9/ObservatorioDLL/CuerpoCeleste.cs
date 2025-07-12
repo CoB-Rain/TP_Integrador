@@ -18,7 +18,7 @@ namespace ObservatorioDLL
 
 		private static int contID = 0;
 
-		private int _id;
+		protected int _id;
 
 		public int id
 		{
@@ -40,7 +40,7 @@ namespace ObservatorioDLL
 			get { return _edad; }
 		}
 
-		private string _nombre;
+		protected string _nombre;
 
 		public string nombre
 		{

@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{26CC6BD1-14EC-4701-96BD-26C2C6BD8798}|HotelDLL\\HotelDLL.csproj|C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\hoteldll\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "AbsoluteMoniker": "D:0:0:{B678248E-07A5-46BE-825C-3809CC6D6293}|Ejercicio 6.csproj|c:\\users\\brian\\onedrive\\escritorio\\programacion\\poo\\tp_integrador\\ejercicio 6\\gestionreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B678248E-07A5-46BE-825C-3809CC6D6293}|Ejercicio 6.csproj|solutionrelative:gestionreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26CC6BD1-14EC-4701-96BD-26C2C6BD8798}|HotelDLL\\HotelDLL.csproj|c:\\users\\brian\\onedrive\\escritorio\\programacion\\poo\\tp_integrador\\ejercicio 6\\hoteldll\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
       "RelativeMoniker": "D:0:0:{26CC6BD1-14EC-4701-96BD-26C2C6BD8798}|HotelDLL\\HotelDLL.csproj|solutionrelative:hoteldll\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
     },
     {
@@ -11,15 +15,11 @@
       "RelativeMoniker": "D:0:0:{B678248E-07A5-46BE-825C-3809CC6D6293}|Ejercicio 6.csproj|solutionrelative:gestionreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B678248E-07A5-46BE-825C-3809CC6D6293}|Ejercicio 6.csproj|c:\\users\\brian\\onedrive\\escritorio\\programacion\\poo\\tp_integrador\\ejercicio 6\\gestionreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B678248E-07A5-46BE-825C-3809CC6D6293}|Ejercicio 6.csproj|solutionrelative:gestionreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B678248E-07A5-46BE-825C-3809CC6D6293}|Ejercicio 6.csproj|C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B678248E-07A5-46BE-825C-3809CC6D6293}|Ejercicio 6.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CC6BD1-14EC-4701-96BD-26C2C6BD8798}|HotelDLL\\HotelDLL.csproj|c:\\users\\brian\\onedrive\\escritorio\\programacion\\poo\\tp_integrador\\ejercicio 6\\hoteldll\\hotelturistico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26CC6BD1-14EC-4701-96BD-26C2C6BD8798}|HotelDLL\\HotelDLL.csproj|C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\hoteldll\\hotelturistico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26CC6BD1-14EC-4701-96BD-26C2C6BD8798}|HotelDLL\\HotelDLL.csproj|solutionrelative:hoteldll\\hotelturistico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -90,7 +90,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ClassDiagram1.cd",
               "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\ClassDiagram1.cd",
               "RelativeDocumentMoniker": "HotelDLL\\ClassDiagram1.cd",
@@ -101,6 +101,96 @@
               "IsPinned": true,
               "EditorCaption": ""
             },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HotelTuristico.cs",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\HotelTuristico.cs",
+              "RelativeDocumentMoniker": "HotelDLL\\HotelTuristico.cs",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\HotelTuristico.cs",
+              "RelativeToolTip": "HotelDLL\\HotelTuristico.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAwGIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T03:40:16.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Reserva.cs",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\Reserva.cs",
+              "RelativeDocumentMoniker": "HotelDLL\\Reserva.cs",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\Reserva.cs",
+              "RelativeToolTip": "HotelDLL\\Reserva.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAuwGUAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T02:52:09.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ReservaConAdicional.cs",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\ReservaConAdicional.cs",
+              "RelativeDocumentMoniker": "HotelDLL\\ReservaConAdicional.cs",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\ReservaConAdicional.cs",
+              "RelativeToolTip": "HotelDLL\\ReservaConAdicional.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T03:42:27.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Adicional.cs",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\Adicional.cs",
+              "RelativeDocumentMoniker": "HotelDLL\\Adicional.cs",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\Adicional.cs",
+              "RelativeToolTip": "HotelDLL\\Adicional.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwB4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T02:17:38.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Huesped.cs",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\Huesped.cs",
+              "RelativeDocumentMoniker": "HotelDLL\\Huesped.cs",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\Huesped.cs",
+              "RelativeToolTip": "HotelDLL\\Huesped.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAowDwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T04:03:56.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Habitacion.cs",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\Habitacion.cs",
+              "RelativeDocumentMoniker": "HotelDLL\\Habitacion.cs",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\Habitacion.cs",
+              "RelativeToolTip": "HotelDLL\\Habitacion.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwEwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T03:16:59.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TipoHabitacion.cs",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\TipoHabitacion.cs",
+              "RelativeDocumentMoniker": "HotelDLL\\TipoHabitacion.cs",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\TipoHabitacion.cs",
+              "RelativeToolTip": "HotelDLL\\TipoHabitacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T03:13:18.992Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 479,
+          "SelectedChildIndex": 4,
+          "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -115,103 +205,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HotelTuristico.cs",
-              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\HotelTuristico.cs",
-              "RelativeDocumentMoniker": "HotelDLL\\HotelTuristico.cs",
-              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\HotelTuristico.cs",
-              "RelativeToolTip": "HotelDLL\\HotelTuristico.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAwGIAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T03:40:16.21Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Reserva.cs",
-              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\Reserva.cs",
-              "RelativeDocumentMoniker": "HotelDLL\\Reserva.cs",
-              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\Reserva.cs",
-              "RelativeToolTip": "HotelDLL\\Reserva.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAuwGUAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T02:52:09.563Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ReservaConAdicional.cs",
-              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\ReservaConAdicional.cs",
-              "RelativeDocumentMoniker": "HotelDLL\\ReservaConAdicional.cs",
-              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\ReservaConAdicional.cs",
-              "RelativeToolTip": "HotelDLL\\ReservaConAdicional.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T03:42:27.115Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Adicional.cs",
-              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\Adicional.cs",
-              "RelativeDocumentMoniker": "HotelDLL\\Adicional.cs",
-              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\Adicional.cs",
-              "RelativeToolTip": "HotelDLL\\Adicional.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAQwB4AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T02:17:38.572Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Huesped.cs",
-              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\Huesped.cs",
-              "RelativeDocumentMoniker": "HotelDLL\\Huesped.cs",
-              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\Huesped.cs",
-              "RelativeToolTip": "HotelDLL\\Huesped.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAowDwAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T04:03:56.365Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Habitacion.cs",
-              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\Habitacion.cs",
-              "RelativeDocumentMoniker": "HotelDLL\\Habitacion.cs",
-              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\Habitacion.cs",
-              "RelativeToolTip": "HotelDLL\\Habitacion.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAQwEwAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T03:16:59.22Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "TipoHabitacion.cs",
-              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\TipoHabitacion.cs",
-              "RelativeDocumentMoniker": "HotelDLL\\TipoHabitacion.cs",
-              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\TipoHabitacion.cs",
-              "RelativeToolTip": "HotelDLL\\TipoHabitacion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T03:13:18.992Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 479,
-          "SelectedChildIndex": 2,
-          "Children": [
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\Program.cs",
@@ -220,33 +213,31 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAiwBIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T15:10:29.913Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-05T15:10:29.913Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "GestionReservas.cs",
               "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\GestionReservas.cs",
               "RelativeDocumentMoniker": "GestionReservas.cs",
               "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\GestionReservas.cs",
               "RelativeToolTip": "GestionReservas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKEAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAwKoAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-05T14:58:16.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GestionReservas.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\GestionReservas.cs",
               "RelativeDocumentMoniker": "GestionReservas.cs",
               "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\GestionReservas.cs [Dise\u00F1o]",
               "RelativeToolTip": "GestionReservas.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T14:58:15.482Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-07-05T14:58:15.482Z"
             },
             {
               "$type": "Document",

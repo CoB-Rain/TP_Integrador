@@ -58,7 +58,7 @@ namespace Ejercicio_9
                 }
                 else
                 {
-                    MessageBox.Show("Complete todos los espacios vacios");
+                    MessageBox.Show("Por favor, completar los espacios vacios", "Error de operación", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             else
@@ -69,7 +69,7 @@ namespace Ejercicio_9
                 }
                 else
                 {
-                    MessageBox.Show("Complete todos los espacios vacios");
+                    MessageBox.Show("Por favor, completar los espacios vacios", "Error de operación", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
 

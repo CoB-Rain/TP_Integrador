@@ -18,5 +18,10 @@ namespace ObservatorioDLL
         {
             get { return _acoplamientoMarea; }
         }
+
+        public override string ToString()
+        {
+            return $"N°{_id} Satelite {_nombre}";
+        }
     }
 }

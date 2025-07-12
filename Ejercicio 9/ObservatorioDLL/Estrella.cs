@@ -77,5 +77,10 @@ namespace ObservatorioDLL
             get { return _nombreConstelacion; }
             set { _nombreConstelacion = value; }
         }
+
+        public override string ToString()
+        {
+            return $"N°{_id} Estrella {_nombre} : {_tipo} {_color}";
+        }
     }
 }

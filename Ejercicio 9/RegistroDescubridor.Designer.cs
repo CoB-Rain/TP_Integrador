@@ -36,9 +36,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.txtLegajo = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.lstDescubridores = new System.Windows.Forms.ListBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtLegajo = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -75,7 +75,7 @@
             // 
             // btnRegistrar
             // 
-            this.btnRegistrar.Location = new System.Drawing.Point(236, 458);
+            this.btnRegistrar.Location = new System.Drawing.Point(236, 433);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(168, 56);
             this.btnRegistrar.TabIndex = 4;
@@ -115,18 +115,19 @@
             this.groupBox1.Controls.Add(this.esPersonal);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(998, 536);
+            this.groupBox1.Size = new System.Drawing.Size(885, 521);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Nuevo Descubridor";
             // 
-            // txtLegajo
+            // lstDescubridores
             // 
-            this.txtLegajo.Location = new System.Drawing.Point(143, 376);
-            this.txtLegajo.Name = "txtLegajo";
-            this.txtLegajo.Size = new System.Drawing.Size(345, 29);
-            this.txtLegajo.TabIndex = 7;
-            this.txtLegajo.Visible = false;
+            this.lstDescubridores.FormattingEnabled = true;
+            this.lstDescubridores.ItemHeight = 24;
+            this.lstDescubridores.Location = new System.Drawing.Point(494, 28);
+            this.lstDescubridores.Name = "lstDescubridores";
+            this.lstDescubridores.Size = new System.Drawing.Size(379, 484);
+            this.lstDescubridores.TabIndex = 8;
             // 
             // label3
             // 
@@ -138,23 +139,22 @@
             this.label3.Text = "Legajo:";
             this.label3.Visible = false;
             // 
-            // lstDescubridores
+            // txtLegajo
             // 
-            this.lstDescubridores.FormattingEnabled = true;
-            this.lstDescubridores.ItemHeight = 24;
-            this.lstDescubridores.Location = new System.Drawing.Point(562, 30);
-            this.lstDescubridores.Name = "lstDescubridores";
-            this.lstDescubridores.Size = new System.Drawing.Size(379, 484);
-            this.lstDescubridores.TabIndex = 8;
+            this.txtLegajo.Location = new System.Drawing.Point(143, 376);
+            this.txtLegajo.Name = "txtLegajo";
+            this.txtLegajo.Size = new System.Drawing.Size(345, 29);
+            this.txtLegajo.TabIndex = 7;
+            this.txtLegajo.Visible = false;
             // 
             // RegistroDescubridor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1022, 559);
+            this.ClientSize = new System.Drawing.Size(905, 540);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "RegistroDescubridor";
             this.Text = "RegistroDescubridor";
             this.Load += new System.EventHandler(this.RegistroDescubridor_Load);

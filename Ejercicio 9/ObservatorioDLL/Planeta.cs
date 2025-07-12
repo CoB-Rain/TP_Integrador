@@ -150,5 +150,10 @@ namespace ObservatorioDLL
                 return false;
             }
         }
+
+        public override string ToString()
+        {
+            return $"N°{_id} Planeta {_nombre}";
+        }
     }
 }
