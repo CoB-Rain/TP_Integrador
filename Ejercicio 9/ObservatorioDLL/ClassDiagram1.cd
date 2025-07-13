@@ -6,18 +6,18 @@
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
-      <HashCode>IAQEIAABAAEAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAQ=</HashCode>
+      <HashCode>AAQEIAABAAEAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAQ=</HashCode>
       <FileName>Observatorio.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ObservatorioDLL.Registros">
+  <Class Name="ObservatorioDLL.Registro">
     <Position X="5" Y="0.5" Width="5.5" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAEAAgAAQgAAAAAQAEAAAAAAAwAA=</HashCode>
-      <FileName>Registros.cs</FileName>
+      <FileName>Registro.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ObservatorioDLL.CuerpoCeleste">
@@ -26,7 +26,7 @@
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAIAAAIAQiA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAACAAgBAAAAAAAAAAAAAAAIAAAIAQiA=</HashCode>
       <FileName>CuerpoCeleste.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -36,7 +36,7 @@
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
-      <HashCode>AAgABIAQAAAYAAAAAAAACBEAAAAFAQCAAAQAIAAAABA=</HashCode>
+      <HashCode>AAgABAAAAAAYAAAEAAAACBEAAAAFAACAAAQAIAAAABA=</HashCode>
       <FileName>Estrella.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -47,7 +47,7 @@
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
-      <HashCode>EAgAIEACAAAAAAgAAAAAAQJBgRAEAAAAAAQAAAgAAQA=</HashCode>
+      <HashCode>EAgAIEACAAAAAAgEAAAAAQJBgRAEAAAAAAQAAAgAAQA=</HashCode>
       <FileName>Planeta.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -58,7 +58,7 @@
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAEAEAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
       <FileName>Satelite.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -68,7 +68,7 @@
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAQAAASAAAAAAAAAAAAAAAAAAAAAABIAAIA=</HashCode>
+      <HashCode>AAAAAAAAAAQAAASEAAAAAAAAAAAAAAAAAAAAABIAAIA=</HashCode>
       <FileName>Descubridor.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -78,7 +78,7 @@
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAQAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Personal.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -107,9 +107,9 @@
     </TypeIdentifier>
   </Interface>
   <Interface Name="ObservatorioDLL.IConstelacion">
-    <Position X="14.25" Y="6.25" Width="2.5" />
+    <Position X="14.25" Y="6.5" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAQAAAAAAIAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
       <FileName>IConstelacion.cs</FileName>
     </TypeIdentifier>
   </Interface>
@@ -127,11 +127,11 @@
       <FileName>TipoEstrella.cs</FileName>
     </TypeIdentifier>
   </Enum>
-  <Delegate Name="ObservatorioDLL.delEditarCuerpoCeleste">
-    <Position X="15.25" Y="1.5" Width="2" />
+  <Delegate Name="ObservatorioDLL.delEditarRegistro">
+    <Position X="16" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>delEditarCuerpoCeleste.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>delEditarRegistro.cs</FileName>
     </TypeIdentifier>
   </Delegate>
   <Font Name="Segoe UI" Size="9" />

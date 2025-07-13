@@ -5,9 +5,9 @@ using System.Text;
 
 namespace ObservatorioDLL
 {
-    public class Registros
+    public class Registro
     {
-        public Registros(CuerpoCeleste objeto, Descubridor persona, DateTime fecha, int distancia)
+        public Registro(CuerpoCeleste objeto, Descubridor persona, DateTime fecha, int distancia)
         {
 			_fechaEncuentro = fecha;
 			_persona = persona;

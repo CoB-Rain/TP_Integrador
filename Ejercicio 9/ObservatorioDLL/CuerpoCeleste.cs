@@ -46,5 +46,5 @@ namespace ObservatorioDLL
 		{
 			get { return _nombre; }
 		}
-	}
+    }
 }

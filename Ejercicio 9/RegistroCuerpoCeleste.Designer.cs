@@ -82,6 +82,29 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabEditarPlaneta = new System.Windows.Forms.TabPage();
             this.tabEditarSatelite = new System.Windows.Forms.TabPage();
+            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.txtTemperaturaPlaneta = new System.Windows.Forms.TextBox();
+            this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.rdSimple = new System.Windows.Forms.RadioButton();
+            this.rdBinario = new System.Windows.Forms.RadioButton();
+            this.label18 = new System.Windows.Forms.Label();
+            this.lstEstrellasNoAsignadas = new System.Windows.Forms.ListBox();
+            this.lnkAgregarEstrella = new System.Windows.Forms.LinkLabel();
+            this.label19 = new System.Windows.Forms.Label();
+            this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.lstSatelitesNoAsignados = new System.Windows.Forms.ListBox();
+            this.btnAsignarEstrella = new System.Windows.Forms.Button();
+            this.btnAsignarSatelite = new System.Windows.Forms.Button();
+            this.label20 = new System.Windows.Forms.Label();
+            this.lnkAgregarSatelite = new System.Windows.Forms.LinkLabel();
+            this.txtPrimerEstrellaAsignada = new System.Windows.Forms.TextBox();
+            this.txtSegundaEstrellaAsignada = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.lstSatelitesAsignados = new System.Windows.Forms.ListBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.btnConfirmarPlaneta = new System.Windows.Forms.Button();
             this.tabEditarEstrella.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -92,6 +115,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvObjetosEncontrados)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.tabControl1.SuspendLayout();
+            this.tabEditarPlaneta.SuspendLayout();
+            this.groupBox7.SuspendLayout();
+            this.groupBox8.SuspendLayout();
+            this.groupBox9.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabEditarEstrella
@@ -195,7 +222,7 @@
             this.groupBox4.Size = new System.Drawing.Size(631, 296);
             this.groupBox4.TabIndex = 0;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Menu Edición";
+            this.groupBox4.Text = "Menú Edición";
             // 
             // label13
             // 
@@ -616,6 +643,7 @@
             // 
             // tabEditarPlaneta
             // 
+            this.tabEditarPlaneta.Controls.Add(this.groupBox7);
             this.tabEditarPlaneta.Location = new System.Drawing.Point(4, 33);
             this.tabEditarPlaneta.Name = "tabEditarPlaneta";
             this.tabEditarPlaneta.Size = new System.Drawing.Size(1435, 579);
@@ -631,6 +659,246 @@
             this.tabEditarSatelite.TabIndex = 3;
             this.tabEditarSatelite.Text = "Editar Satelite";
             this.tabEditarSatelite.UseVisualStyleBackColor = true;
+            // 
+            // groupBox7
+            // 
+            this.groupBox7.Controls.Add(this.groupBox8);
+            this.groupBox7.Location = new System.Drawing.Point(3, 3);
+            this.groupBox7.Name = "groupBox7";
+            this.groupBox7.Size = new System.Drawing.Size(1427, 570);
+            this.groupBox7.TabIndex = 0;
+            this.groupBox7.TabStop = false;
+            this.groupBox7.Text = "Menú Edición";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(10, 41);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(123, 24);
+            this.label17.TabIndex = 10;
+            this.label17.Text = "Temperatura:";
+            // 
+            // txtTemperaturaPlaneta
+            // 
+            this.txtTemperaturaPlaneta.Location = new System.Drawing.Point(139, 38);
+            this.txtTemperaturaPlaneta.Name = "txtTemperaturaPlaneta";
+            this.txtTemperaturaPlaneta.Size = new System.Drawing.Size(64, 29);
+            this.txtTemperaturaPlaneta.TabIndex = 9;
+            // 
+            // groupBox8
+            // 
+            this.groupBox8.Controls.Add(this.btnConfirmarPlaneta);
+            this.groupBox8.Controls.Add(this.label23);
+            this.groupBox8.Controls.Add(this.lstSatelitesAsignados);
+            this.groupBox8.Controls.Add(this.label22);
+            this.groupBox8.Controls.Add(this.label21);
+            this.groupBox8.Controls.Add(this.txtSegundaEstrellaAsignada);
+            this.groupBox8.Controls.Add(this.txtPrimerEstrellaAsignada);
+            this.groupBox8.Controls.Add(this.label20);
+            this.groupBox8.Controls.Add(this.lnkAgregarSatelite);
+            this.groupBox8.Controls.Add(this.btnAsignarSatelite);
+            this.groupBox8.Controls.Add(this.btnAsignarEstrella);
+            this.groupBox8.Controls.Add(this.lstSatelitesNoAsignados);
+            this.groupBox8.Controls.Add(this.groupBox9);
+            this.groupBox8.Controls.Add(this.label19);
+            this.groupBox8.Controls.Add(this.lnkAgregarEstrella);
+            this.groupBox8.Controls.Add(this.lstEstrellasNoAsignadas);
+            this.groupBox8.Controls.Add(this.label18);
+            this.groupBox8.Controls.Add(this.rdBinario);
+            this.groupBox8.Controls.Add(this.rdSimple);
+            this.groupBox8.Location = new System.Drawing.Point(6, 28);
+            this.groupBox8.Name = "groupBox8";
+            this.groupBox8.Size = new System.Drawing.Size(1415, 536);
+            this.groupBox8.TabIndex = 11;
+            this.groupBox8.TabStop = false;
+            this.groupBox8.Text = "Sistema Planetario";
+            // 
+            // rdSimple
+            // 
+            this.rdSimple.AutoSize = true;
+            this.rdSimple.Checked = true;
+            this.rdSimple.Location = new System.Drawing.Point(72, 57);
+            this.rdSimple.Name = "rdSimple";
+            this.rdSimple.Size = new System.Drawing.Size(86, 28);
+            this.rdSimple.TabIndex = 0;
+            this.rdSimple.TabStop = true;
+            this.rdSimple.Text = "Simple";
+            this.rdSimple.UseVisualStyleBackColor = true;
+            this.rdSimple.CheckedChanged += new System.EventHandler(this.rdSimple_CheckedChanged);
+            // 
+            // rdBinario
+            // 
+            this.rdBinario.AutoSize = true;
+            this.rdBinario.Location = new System.Drawing.Point(164, 57);
+            this.rdBinario.Name = "rdBinario";
+            this.rdBinario.Size = new System.Drawing.Size(86, 28);
+            this.rdBinario.TabIndex = 1;
+            this.rdBinario.Text = "Binario";
+            this.rdBinario.UseVisualStyleBackColor = true;
+            this.rdBinario.CheckedChanged += new System.EventHandler(this.rdBinario_CheckedChanged);
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(14, 59);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(53, 24);
+            this.label18.TabIndex = 2;
+            this.label18.Text = "Tipo:";
+            // 
+            // lstEstrellasNoAsignadas
+            // 
+            this.lstEstrellasNoAsignadas.FormattingEnabled = true;
+            this.lstEstrellasNoAsignadas.ItemHeight = 24;
+            this.lstEstrellasNoAsignadas.Location = new System.Drawing.Point(552, 20);
+            this.lstEstrellasNoAsignadas.Name = "lstEstrellasNoAsignadas";
+            this.lstEstrellasNoAsignadas.Size = new System.Drawing.Size(476, 460);
+            this.lstEstrellasNoAsignadas.TabIndex = 3;
+            // 
+            // lnkAgregarEstrella
+            // 
+            this.lnkAgregarEstrella.AutoSize = true;
+            this.lnkAgregarEstrella.Location = new System.Drawing.Point(884, 493);
+            this.lnkAgregarEstrella.Name = "lnkAgregarEstrella";
+            this.lnkAgregarEstrella.Size = new System.Drawing.Size(144, 24);
+            this.lnkAgregarEstrella.TabIndex = 4;
+            this.lnkAgregarEstrella.TabStop = true;
+            this.lnkAgregarEstrella.Text = "Agregar Estrella";
+            this.lnkAgregarEstrella.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkAgregarEstrella_LinkClicked);
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(548, 493);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(330, 24);
+            this.label19.TabIndex = 5;
+            this.label19.Text = "No encuentras la estrella que buscas?";
+            // 
+            // groupBox9
+            // 
+            this.groupBox9.Controls.Add(this.txtTemperaturaPlaneta);
+            this.groupBox9.Controls.Add(this.label17);
+            this.groupBox9.Location = new System.Drawing.Point(327, 20);
+            this.groupBox9.Name = "groupBox9";
+            this.groupBox9.Size = new System.Drawing.Size(216, 88);
+            this.groupBox9.TabIndex = 11;
+            this.groupBox9.TabStop = false;
+            this.groupBox9.Text = "Planeta";
+            // 
+            // lstSatelitesNoAsignados
+            // 
+            this.lstSatelitesNoAsignados.FormattingEnabled = true;
+            this.lstSatelitesNoAsignados.ItemHeight = 24;
+            this.lstSatelitesNoAsignados.Location = new System.Drawing.Point(1034, 20);
+            this.lstSatelitesNoAsignados.Name = "lstSatelitesNoAsignados";
+            this.lstSatelitesNoAsignados.Size = new System.Drawing.Size(375, 460);
+            this.lstSatelitesNoAsignados.TabIndex = 12;
+            // 
+            // btnAsignarEstrella
+            // 
+            this.btnAsignarEstrella.Location = new System.Drawing.Point(198, 459);
+            this.btnAsignarEstrella.Name = "btnAsignarEstrella";
+            this.btnAsignarEstrella.Size = new System.Drawing.Size(163, 58);
+            this.btnAsignarEstrella.TabIndex = 13;
+            this.btnAsignarEstrella.Text = "Asignar Estrella";
+            this.btnAsignarEstrella.UseVisualStyleBackColor = true;
+            this.btnAsignarEstrella.Click += new System.EventHandler(this.btnAsignarEstrella_Click);
+            // 
+            // btnAsignarSatelite
+            // 
+            this.btnAsignarSatelite.Location = new System.Drawing.Point(367, 459);
+            this.btnAsignarSatelite.Name = "btnAsignarSatelite";
+            this.btnAsignarSatelite.Size = new System.Drawing.Size(163, 58);
+            this.btnAsignarSatelite.TabIndex = 14;
+            this.btnAsignarSatelite.Text = "Asignar Satelite";
+            this.btnAsignarSatelite.UseVisualStyleBackColor = true;
+            this.btnAsignarSatelite.Click += new System.EventHandler(this.btnAsignarSatelite_Click);
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(1030, 493);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(226, 24);
+            this.label20.TabIndex = 16;
+            this.label20.Text = "No encuentras el satelite?";
+            // 
+            // lnkAgregarSatelite
+            // 
+            this.lnkAgregarSatelite.AutoSize = true;
+            this.lnkAgregarSatelite.Location = new System.Drawing.Point(1266, 493);
+            this.lnkAgregarSatelite.Name = "lnkAgregarSatelite";
+            this.lnkAgregarSatelite.Size = new System.Drawing.Size(143, 24);
+            this.lnkAgregarSatelite.TabIndex = 15;
+            this.lnkAgregarSatelite.TabStop = true;
+            this.lnkAgregarSatelite.Text = "Agregar Satelite";
+            this.lnkAgregarSatelite.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkAgregarSatelite_LinkClicked);
+            // 
+            // txtPrimerEstrellaAsignada
+            // 
+            this.txtPrimerEstrellaAsignada.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.txtPrimerEstrellaAsignada.Location = new System.Drawing.Point(198, 128);
+            this.txtPrimerEstrellaAsignada.Name = "txtPrimerEstrellaAsignada";
+            this.txtPrimerEstrellaAsignada.ReadOnly = true;
+            this.txtPrimerEstrellaAsignada.Size = new System.Drawing.Size(345, 29);
+            this.txtPrimerEstrellaAsignada.TabIndex = 22;
+            // 
+            // txtSegundaEstrellaAsignada
+            // 
+            this.txtSegundaEstrellaAsignada.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.txtSegundaEstrellaAsignada.Location = new System.Drawing.Point(198, 163);
+            this.txtSegundaEstrellaAsignada.Name = "txtSegundaEstrellaAsignada";
+            this.txtSegundaEstrellaAsignada.ReadOnly = true;
+            this.txtSegundaEstrellaAsignada.Size = new System.Drawing.Size(345, 29);
+            this.txtSegundaEstrellaAsignada.TabIndex = 23;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(56, 131);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(136, 24);
+            this.label21.TabIndex = 24;
+            this.label21.Text = "Primer Estrella:";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(34, 166);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(158, 24);
+            this.label22.TabIndex = 25;
+            this.label22.Text = "Segunda Estrella:";
+            // 
+            // lstSatelitesAsignados
+            // 
+            this.lstSatelitesAsignados.FormattingEnabled = true;
+            this.lstSatelitesAsignados.ItemHeight = 24;
+            this.lstSatelitesAsignados.Location = new System.Drawing.Point(198, 229);
+            this.lstSatelitesAsignados.Name = "lstSatelitesAsignados";
+            this.lstSatelitesAsignados.Size = new System.Drawing.Size(332, 220);
+            this.lstSatelitesAsignados.TabIndex = 26;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(303, 202);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(84, 24);
+            this.label23.TabIndex = 27;
+            this.label23.Text = "Satelites:";
+            // 
+            // btnConfirmarPlaneta
+            // 
+            this.btnConfirmarPlaneta.Location = new System.Drawing.Point(29, 459);
+            this.btnConfirmarPlaneta.Name = "btnConfirmarPlaneta";
+            this.btnConfirmarPlaneta.Size = new System.Drawing.Size(163, 58);
+            this.btnConfirmarPlaneta.TabIndex = 28;
+            this.btnConfirmarPlaneta.Text = "Confirmar";
+            this.btnConfirmarPlaneta.UseVisualStyleBackColor = true;
+            this.btnConfirmarPlaneta.Click += new System.EventHandler(this.btnConfirmarPlaneta_Click);
             // 
             // RegistroCuerpoCeleste
             // 
@@ -658,6 +926,12 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.tabControl1.ResumeLayout(false);
+            this.tabEditarPlaneta.ResumeLayout(false);
+            this.groupBox7.ResumeLayout(false);
+            this.groupBox8.ResumeLayout(false);
+            this.groupBox8.PerformLayout();
+            this.groupBox9.ResumeLayout(false);
+            this.groupBox9.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -718,5 +992,28 @@
         private System.Windows.Forms.RadioButton rdPlaneta;
         private System.Windows.Forms.RadioButton rdEstrella;
         private System.Windows.Forms.RadioButton rdDefault;
+        private System.Windows.Forms.GroupBox groupBox7;
+        private System.Windows.Forms.GroupBox groupBox8;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.TextBox txtTemperaturaPlaneta;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.LinkLabel lnkAgregarEstrella;
+        private System.Windows.Forms.ListBox lstEstrellasNoAsignadas;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.RadioButton rdBinario;
+        private System.Windows.Forms.RadioButton rdSimple;
+        private System.Windows.Forms.Button btnAsignarEstrella;
+        private System.Windows.Forms.ListBox lstSatelitesNoAsignados;
+        private System.Windows.Forms.GroupBox groupBox9;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.LinkLabel lnkAgregarSatelite;
+        private System.Windows.Forms.Button btnAsignarSatelite;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.TextBox txtSegundaEstrellaAsignada;
+        private System.Windows.Forms.TextBox txtPrimerEstrellaAsignada;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.ListBox lstSatelitesAsignados;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Button btnConfirmarPlaneta;
     }
 }

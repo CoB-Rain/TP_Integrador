@@ -50,6 +50,12 @@ namespace Ejercicio_9
             }
         }
 
+        public Registro RegistrarObjetoEncontrado(Descubridor descubridor, CuerpoCeleste objetoEncontrado)
+        {
+            Registro nuevoRegistro = new Registro(objetoEncontrado, descubridor, DateTime.Now, 0);
+            return nuevoRegistro;
+        }
+
         public void InicializarMenuCarga()
         {
             dgvObjetosEncontrados.DataSource = null;
@@ -74,6 +80,10 @@ namespace Ejercicio_9
         bool bloquearTabEstrella = true;
         bool bloquearTabPlaneta = true;
         bool bloquearTabSatelite = true;
+
+        bool esCarga = false;
+        bool esEditar = false;
+        bool esPlaneta = false;
 
         private void PrepararEdicionEstrella()
         {
@@ -106,8 +116,6 @@ namespace Ejercicio_9
             bloquearTabSatelite = false;
             tabControl1.SelectTab(tabEditarSatelite);
         }
-
-        bool esCarga = false;
 
         private void btnCargar_Click(object sender, EventArgs e)
         {
@@ -162,7 +170,7 @@ namespace Ejercicio_9
             }
             else
             {
-                esCarga = false;
+                esEditar = true;
                 CuerpoCeleste objetoAEditar = CuerpoCelesteActual();
 
                 if (objetoAEditar is Estrella)
@@ -245,11 +253,13 @@ namespace Ejercicio_9
                     {
                         nombreConstelacion = txtConstelacion.Text
                     };
+                    _obsRegistroCuerpoCeleste.registros.Add(RegistrarObjetoEncontrado((Descubridor)cmbObservadorCarga.SelectedItem, nuevaEstrella));
                     _obsRegistroCuerpoCeleste.objetosEncontrados.Add(nuevaEstrella);
                     MessageBox.Show("Se guardó la nueva estrella con éxito!", "Operación exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     InicializarMenuCarga();
+                    esCarga = false;
                 }
-                else
+                else if(esEditar)
                 {
                     if (_obsRegistroCuerpoCeleste.objetosEncontrados.Contains(CuerpoCelesteActual()))
                     {
@@ -261,6 +271,19 @@ namespace Ejercicio_9
                         MessageBox.Show("Se editó la estrella con éxito!", "Operación exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         InicializarMenuCarga();
                     }
+                    esEditar = false;
+                }
+                else if(esPlaneta)
+                {
+                    CuerpoCeleste nuevaEstrella = new Estrella($"Estrella empty from Planeta ID:{CuerpoCelesteActual().id}", 0, 0, Convert.ToDouble(txtTemperaturaEstrella.Text), Convert.ToInt32(txtDiametroEstrella.Text), (ObservatorioDLL.Color)cmbColorEstrella.SelectedItem, (TipoEstrella)cmbTipoEstrella.SelectedItem)
+                    {
+                        nombreConstelacion = txtConstelacion.Text
+                    };
+                    _obsRegistroCuerpoCeleste.objetosEncontrados.Add(nuevaEstrella);
+                    _obsRegistroCuerpoCeleste.registros.Add(RegistrarObjetoEncontrado((Descubridor)cmbObservadorCarga.SelectedItem, nuevaEstrella));
+                    MessageBox.Show("Se guardó la nueva estrella con éxito!", "Operación exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    PrepararEdicionPlaneta();
+                    esPlaneta = false;
                 }
             }
         }
@@ -309,6 +332,8 @@ namespace Ejercicio_9
                                                      orderby estrella.id ascending
                                                      select estrella).ToList();
                 dgvObjetosEncontrados.DataSource = listaFiltrada;
+                dgvObjetosEncontrados.Columns["limiteInferiorKM"].Visible = false;
+                dgvObjetosEncontrados.Columns["limiteSuperiorKM"].Visible = false;
             }
         }
 
@@ -320,7 +345,8 @@ namespace Ejercicio_9
                                                orderby planeta.id ascending
                                                select planeta).ToList();
                 dgvObjetosEncontrados.DataSource = listaFiltrada;
-
+                dgvObjetosEncontrados.Columns["distanciaPrimerEstrella"].Visible = false;
+                dgvObjetosEncontrados.Columns["distanciaSegundaEstrella"].Visible = false;
             }
         }
 
@@ -341,6 +367,48 @@ namespace Ejercicio_9
             {
                 InicializarMenuCarga();
             }
+        }
+
+        private void lnkAgregarEstrella_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            esPlaneta = true;
+            PrepararEdicionEstrella();
+        }
+
+        private void lnkAgregarSatelite_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void rdSimple_CheckedChanged(object sender, EventArgs e)
+        {
+            if(rdSimple.Checked == true)
+            {
+
+            }
+        }
+
+        private void rdBinario_CheckedChanged(object sender, EventArgs e)
+        {
+            if(rdBinario.Checked == true)
+            {
+
+            }
+        }
+
+        private void btnConfirmarPlaneta_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAsignarEstrella_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAsignarSatelite_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

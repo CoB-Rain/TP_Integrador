@@ -10,14 +10,14 @@ namespace ObservatorioDLL
     {
         public Observatorio()
         {
-			_registros = new List<Registros>();
+			_registros = new List<Registro>();
 			_objetosEncontrados = new List<CuerpoCeleste>();
 			_descubridores = new List<Descubridor>();
         }
 
-        private List<Registros> _registros;
+        private List<Registro> _registros;
 
-		public List<Registros> registros
+		public List<Registro> registros
 		{
 			get { return _registros; }
 			set { _registros = value; }
@@ -39,6 +39,8 @@ namespace ObservatorioDLL
 			set { _descubridores = value; }
 		}
 
+		public delEditarRegistro EditarRegistro;
+
 		public void CargaCuerpoCeleste(CuerpoCeleste objeto)
 		{
 			if(objeto is Estrella estrella && estrella != null)
@@ -54,17 +56,5 @@ namespace ObservatorioDLL
 				_objetosEncontrados.Add(satelite);
 			}
 		}
-
-
-		public void EditarCuerpoCeleste(CuerpoCeleste objeto)
-		{
-			if(_objetosEncontrados.Contains(objeto))
-			{
-				
-
-			}
-		}
-
-
 	}
 }

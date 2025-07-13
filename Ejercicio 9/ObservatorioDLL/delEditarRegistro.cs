@@ -5,5 +5,5 @@ using System.Text;
 
 namespace ObservatorioDLL
 {
-    public delegate void delEditarCuerpoCeleste(CuerpoCeleste objetoEditado);
+    public delegate void delEditarRegistro(Registro registro);
 }
