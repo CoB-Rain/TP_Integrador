@@ -7,7 +7,7 @@ namespace ObservatorioDLL
 {
     public class Satelite : CuerpoCeleste
     {
-        public Satelite(string nombre, int edad, int masa, bool poseeAcoplamiento) : base(nombre, edad, masa)
+        public Satelite(string nombre, int edad, int masa, bool poseeAcoplamiento = false) : base(nombre, edad, masa)
         {
             _acoplamientoMarea = poseeAcoplamiento;
         }

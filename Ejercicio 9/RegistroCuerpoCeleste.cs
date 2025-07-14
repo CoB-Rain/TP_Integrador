@@ -88,6 +88,7 @@ namespace Ejercicio_9
         private void PrepararEdicionEstrella()
         {
             bloquearTabCarga = true;
+            bloquearTabPlaneta = true;
             bloquearTabEstrella = false;
             tabControl1.SelectTab(tabEditarEstrella);
 
@@ -106,6 +107,8 @@ namespace Ejercicio_9
         private void PrepararEdicionPlaneta()
         {
             bloquearTabCarga = true;
+            bloquearTabEstrella = true;
+            bloquearTabSatelite = true;
             bloquearTabPlaneta = false;
             tabControl1.SelectTab(tabEditarPlaneta);
         }
@@ -113,6 +116,7 @@ namespace Ejercicio_9
         private void PrepararEdicionSatelite()
         {
             bloquearTabCarga = true;
+            bloquearTabPlaneta = true;
             bloquearTabSatelite = false;
             tabControl1.SelectTab(tabEditarSatelite);
         }
@@ -132,6 +136,11 @@ namespace Ejercicio_9
                     || string.IsNullOrWhiteSpace(txtMasa.Text))
             {
                 MessageBox.Show("Por favor, completar los campos de datos del objeto encontrado", "Error de selección", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else if (!(int.TryParse(txtEdadAEditar.Text, out int numero)
+                    && int.TryParse(txtMasaAEditar.Text, out int numero2)))
+            {
+                MessageBox.Show("Los valores no son numericos", "Error de operación", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
@@ -285,6 +294,9 @@ namespace Ejercicio_9
                     PrepararEdicionPlaneta();
                     esPlaneta = false;
                 }
+                txtTemperaturaEstrella.Clear();
+                txtDiametroEstrella.Clear();
+                txtConstelacion.Clear();
             }
         }
 
@@ -305,6 +317,7 @@ namespace Ejercicio_9
             if (!lstConstelaciones.Items.Contains(txtNuevaConstelacion.Text))
             {
                 lstConstelaciones.Items.Add(txtNuevaConstelacion.Text);
+                txtNuevaConstelacion.Clear();
             }
             else
             {
@@ -377,7 +390,8 @@ namespace Ejercicio_9
 
         private void lnkAgregarSatelite_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            esPlaneta = true;
+            PrepararEdicionSatelite();
         }
 
         private void rdSimple_CheckedChanged(object sender, EventArgs e)
@@ -409,6 +423,41 @@ namespace Ejercicio_9
         private void btnAsignarSatelite_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnEditarSatelite_Click(object sender, EventArgs e)
+        {
+            bool poseeAcoplamiento = rdSi.Checked == true;
+
+            if (esCarga)
+            {
+                CuerpoCeleste nuevoSatelite = new Satelite(txtNombre.Text, Convert.ToInt32(txtEdad.Text), Convert.ToInt32(txtMasa.Text), poseeAcoplamiento);
+                _obsRegistroCuerpoCeleste.registros.Add(RegistrarObjetoEncontrado((Descubridor)cmbObservadorCarga.SelectedItem, nuevoSatelite));
+                _obsRegistroCuerpoCeleste.objetosEncontrados.Add(nuevoSatelite);
+                MessageBox.Show("Se guardó el nuevo satelite con éxito!", "Operación exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                InicializarMenuCarga();
+                esCarga = false;
+            }
+            else if (esEditar)
+            {
+                if (_obsRegistroCuerpoCeleste.objetosEncontrados.Contains(CuerpoCelesteActual()))
+                {
+                    int indice = _obsRegistroCuerpoCeleste.objetosEncontrados.FindIndex(o => o.id == CuerpoCelesteActual().id);
+                    _obsRegistroCuerpoCeleste.objetosEncontrados[indice] = new Satelite(txtNombreAEditar.Text, Convert.ToInt32(txtEdadAEditar.Text), Convert.ToInt32(txtMasaAEditar.Text), poseeAcoplamiento);
+                    MessageBox.Show("Se editó el satelite con éxito!", "Operación exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    InicializarMenuCarga();
+                }
+                esEditar = false;
+            }
+            else if (esPlaneta)
+            {
+                CuerpoCeleste nuevoSatelite = new Satelite($"Satelite empty from Planeta ID:{CuerpoCelesteActual().id}", 0, 0, poseeAcoplamiento);
+                _obsRegistroCuerpoCeleste.objetosEncontrados.Add(nuevoSatelite);
+                _obsRegistroCuerpoCeleste.registros.Add(RegistrarObjetoEncontrado((Descubridor)cmbObservadorCarga.SelectedItem, nuevoSatelite));
+                MessageBox.Show("Se guardó el nuevo satelite con éxito!", "Operación exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                PrepararEdicionPlaneta();
+                esPlaneta = false;
+            }
         }
     }
 }
