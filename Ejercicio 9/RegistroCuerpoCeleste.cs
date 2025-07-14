@@ -74,6 +74,19 @@ namespace Ejercicio_9
             bloquearTabPlaneta = true;
             bloquearTabSatelite = true;
             tabControl1.SelectTab(tabCargaCuerpoCeleste);
+
+            //Listas de la pestaña "Editar Planeta"
+            lstEstrellasNoAsignadas.DataSource = null;
+            List<Estrella> listaFiltrada = (from Estrella estrella in _obsRegistroCuerpoCeleste.objetosEncontrados
+                                            orderby estrella.id ascending
+                                            select estrella).ToList();
+            lstEstrellasNoAsignadas.DataSource = listaFiltrada;
+
+            lstSatelitesNoAsignados.DataSource = null;
+            List<Satelite> listaFiltrada2 = (from Satelite satelite in _obsRegistroCuerpoCeleste.objetosEncontrados
+                                             orderby satelite.id ascending
+                                             select satelite).ToList();
+            lstSatelitesNoAsignados.DataSource = listaFiltrada2;
         }
 
         bool bloquearTabCarga = false;
@@ -406,7 +419,13 @@ namespace Ejercicio_9
         {
             if(rdBinario.Checked == true)
             {
-
+                label22.Visible = true;
+                txtSegundaEstrellaAsignada.Visible = true;
+            }
+            else
+            {
+                label22.Visible = false;
+                txtSegundaEstrellaAsignada.Visible = false;
             }
         }
 
@@ -417,12 +436,41 @@ namespace Ejercicio_9
 
         private void btnAsignarEstrella_Click(object sender, EventArgs e)
         {
-
+            if (lstEstrellasNoAsignadas.SelectedItems.Count > 0)
+            {
+                if(rdBinario.Checked == true && lstEstrellasAsignadas.Items.Count == 1)
+                {
+                    lstEstrellasAsignadas.Items.Add(lstEstrellasNoAsignadas.SelectedItem);
+                    txtSegundaEstrellaAsignada.Text = lstEstrellasNoAsignadas.SelectedItem.ToString();
+                }
+                else if(lstEstrellasAsignadas.Items.Count == 0)
+                {
+                    lstEstrellasAsignadas.Items.Add(lstEstrellasNoAsignadas.SelectedItem);
+                    txtPrimerEstrellaAsignada.Text = lstEstrellasNoAsignadas.SelectedItem.ToString();
+                }
+                else
+                {
+                    MessageBox.Show("No se ha podido asignar la estrella.", "Error de operación", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else
+            {
+                MessageBox.Show("No has seleccionado una estrella para asignarla.", "Error de selección", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void btnAsignarSatelite_Click(object sender, EventArgs e)
         {
-
+            if(lstSatelitesNoAsignados.SelectedItems.Count > 0)
+            {
+                foreach (var item in lstSatelitesNoAsignados.SelectedItems)
+                {
+                    if (!lstSatelitesAsignados.Items.Contains(item))
+                    {
+                        lstSatelitesAsignados.Items.Add(item);
+                    }
+                }
+            }
         }
 
         private void btnEditarSatelite_Click(object sender, EventArgs e)
