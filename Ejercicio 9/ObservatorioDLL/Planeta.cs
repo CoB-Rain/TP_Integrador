@@ -91,11 +91,11 @@ namespace ObservatorioDLL
             double total = 0.0;
             if(unidad == "C")
             {
-                total = (temperatura * (9 / 5)) + 32;
+                total = (temperatura * 1.8) + 32;
             }
             else if(unidad == "F")
             {
-                total = (temperatura - 32) * (5 / 9);
+                total = (temperatura - 32) * 0.55555555555555555555555555555556;
             }
             return total;
         }
