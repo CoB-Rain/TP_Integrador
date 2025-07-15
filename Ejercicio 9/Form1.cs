@@ -51,14 +51,14 @@ namespace Ejercicio_9
 		 y por último el legajo en caso de ser personal del observatorio.
 
 		 Desarrollar una aplicación Orientada a Objetos utilizando C# que permita:
-				1) Carga y edición de los diferentes cuerpos celestes.
+				1) Carga y edición de los diferentes cuerpos celestes. {OK}
 				2) Convertir dinámicamente años luz en kilómetros y viceversa. {OK}
 				3) Convertir dinámicamente las temperaturas de Grados Celsius a Fanrenheit y viceversa. {OK}
-				4) Buscar planetas por: {OK}
+				4) Buscar planetas por:
 					a. Nombre.
 					b. Estrella en la que orbita.
 					c. Potencialmente habitables.
-				5) Buscar estrellas por: {OK}
+				5) Buscar estrellas por:
 					a. Tipo basado en el color y Tipo.
 					b. Temperatura.
 					c. Constelación.

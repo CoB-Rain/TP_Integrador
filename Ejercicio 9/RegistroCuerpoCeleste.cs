@@ -74,19 +74,6 @@ namespace Ejercicio_9
             bloquearTabPlaneta = true;
             bloquearTabSatelite = true;
             tabControl1.SelectTab(tabCargaCuerpoCeleste);
-
-            //Listas de la pestaña "Editar Planeta"
-            lstEstrellasNoAsignadas.DataSource = null;
-            List<Estrella> listaFiltrada = (from Estrella estrella in _obsRegistroCuerpoCeleste.objetosEncontrados
-                                            orderby estrella.id ascending
-                                            select estrella).ToList();
-            lstEstrellasNoAsignadas.DataSource = listaFiltrada;
-
-            lstSatelitesNoAsignados.DataSource = null;
-            List<Satelite> listaFiltrada2 = (from Satelite satelite in _obsRegistroCuerpoCeleste.objetosEncontrados
-                                             orderby satelite.id ascending
-                                             select satelite).ToList();
-            lstSatelitesNoAsignados.DataSource = listaFiltrada2;
         }
 
         bool bloquearTabCarga = false;
@@ -150,8 +137,8 @@ namespace Ejercicio_9
             {
                 MessageBox.Show("Por favor, completar los campos de datos del objeto encontrado", "Error de selección", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            else if (!(int.TryParse(txtEdadAEditar.Text, out int numero)
-                    && int.TryParse(txtMasaAEditar.Text, out int numero2)))
+            else if (!(int.TryParse(txtEdad.Text, out int numero)
+                    && int.TryParse(txtMasa.Text, out int numero2)))
             {
                 MessageBox.Show("Los valores no son numericos", "Error de operación", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -297,7 +284,7 @@ namespace Ejercicio_9
                 }
                 else if(esPlaneta)
                 {
-                    CuerpoCeleste nuevaEstrella = new Estrella($"Estrella empty from Planeta ID:{CuerpoCelesteActual().id}", 0, 0, Convert.ToDouble(txtTemperaturaEstrella.Text), Convert.ToInt32(txtDiametroEstrella.Text), (ObservatorioDLL.Color)cmbColorEstrella.SelectedItem, (TipoEstrella)cmbTipoEstrella.SelectedItem)
+                    CuerpoCeleste nuevaEstrella = new Estrella($"Estrella empty from Planeta", 0, 0, Convert.ToDouble(txtTemperaturaEstrella.Text), Convert.ToInt32(txtDiametroEstrella.Text), (ObservatorioDLL.Color)cmbColorEstrella.SelectedItem, (TipoEstrella)cmbTipoEstrella.SelectedItem)
                     {
                         nombreConstelacion = txtConstelacion.Text
                     };
@@ -305,7 +292,23 @@ namespace Ejercicio_9
                     _obsRegistroCuerpoCeleste.registros.Add(RegistrarObjetoEncontrado((Descubridor)cmbObservadorCarga.SelectedItem, nuevaEstrella));
                     MessageBox.Show("Se guardó la nueva estrella con éxito!", "Operación exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     PrepararEdicionPlaneta();
+
+                    int cantidadDeEstrellas = _obsRegistroCuerpoCeleste.objetosEncontrados.Count(est => est is Estrella);
+
+                    if (cantidadDeEstrellas > 0)
+                    {
+                        lstEstrellasNoAsignadas.DataSource = null;
+                        List<Estrella> listaFiltrada = _obsRegistroCuerpoCeleste.objetosEncontrados.OfType<Estrella>().OrderBy(est => est.id).ToList();
+                            /*(from Estrella estrella in _obsRegistroCuerpoCeleste.objetosEncontrados
+                            where estrella is Estrella
+                            orderby estrella.id ascending
+                            select (Estrella)estrella).ToList();
+                            */
+                        lstEstrellasNoAsignadas.DataSource = listaFiltrada;
+                    }
+
                     esPlaneta = false;
+                    esCarga = true;
                 }
                 txtTemperaturaEstrella.Clear();
                 txtDiametroEstrella.Clear();
@@ -342,7 +345,7 @@ namespace Ejercicio_9
         {
             if(lstConstelaciones.SelectedItem != null)
             {
-                txtConstelacion.Text = txtNuevaConstelacion.Text;
+                txtConstelacion.Text = lstConstelaciones.SelectedItem.ToString();
             }
             else
             {
@@ -354,9 +357,7 @@ namespace Ejercicio_9
         {
             if(rdEstrella.Checked == true)
             {
-                List<Estrella> listaFiltrada = (from Estrella estrella in _obsRegistroCuerpoCeleste.objetosEncontrados
-                                                     orderby estrella.id ascending
-                                                     select estrella).ToList();
+                List<Estrella> listaFiltrada = _obsRegistroCuerpoCeleste.objetosEncontrados.OfType<Estrella>().OrderBy(est => est.id).ToList();
                 dgvObjetosEncontrados.DataSource = listaFiltrada;
                 dgvObjetosEncontrados.Columns["limiteInferiorKM"].Visible = false;
                 dgvObjetosEncontrados.Columns["limiteSuperiorKM"].Visible = false;
@@ -367,9 +368,7 @@ namespace Ejercicio_9
         {
             if (rdPlaneta.Checked == true)
             {
-                List<Planeta> listaFiltrada = (from Planeta planeta in _obsRegistroCuerpoCeleste.objetosEncontrados
-                                               orderby planeta.id ascending
-                                               select planeta).ToList();
+                List<Planeta> listaFiltrada = _obsRegistroCuerpoCeleste.objetosEncontrados.OfType<Planeta>().OrderBy(p => p.id).ToList();
                 dgvObjetosEncontrados.DataSource = listaFiltrada;
                 dgvObjetosEncontrados.Columns["distanciaPrimerEstrella"].Visible = false;
                 dgvObjetosEncontrados.Columns["distanciaSegundaEstrella"].Visible = false;
@@ -380,9 +379,7 @@ namespace Ejercicio_9
         {
             if (rdSatelite.Checked == true)
             {
-                List<Satelite> listaFiltrada = (from Satelite satelite in _obsRegistroCuerpoCeleste.objetosEncontrados
-                                                orderby satelite.id ascending
-                                                select satelite).ToList();
+                List<Satelite> listaFiltrada = _obsRegistroCuerpoCeleste.objetosEncontrados.OfType<Satelite>().OrderBy(s => s.id).ToList();
                 dgvObjetosEncontrados.DataSource = listaFiltrada;
             }
         }
@@ -397,12 +394,14 @@ namespace Ejercicio_9
 
         private void lnkAgregarEstrella_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            esCarga = false;
             esPlaneta = true;
             PrepararEdicionEstrella();
         }
 
         private void lnkAgregarSatelite_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            esCarga = false;
             esPlaneta = true;
             PrepararEdicionSatelite();
         }
@@ -417,21 +416,125 @@ namespace Ejercicio_9
 
         private void rdBinario_CheckedChanged(object sender, EventArgs e)
         {
-            if(rdBinario.Checked == true)
+            if (rdBinario.Checked == true)
             {
                 label22.Visible = true;
-                txtSegundaEstrellaAsignada.Visible = true;
+                txtDistanciaSegundaEstrella.Visible = true;
             }
             else
             {
                 label22.Visible = false;
-                txtSegundaEstrellaAsignada.Visible = false;
+                txtDistanciaSegundaEstrella.Visible = false;
             }
         }
 
         private void btnConfirmarPlaneta_Click(object sender, EventArgs e)
         {
+            if(rdBinario.Checked == true)
+            {
+                if (lstEstrellasAsignadas.Items.Count == 2
+                    && lstSatelitesAsignados.Items.Count > 0)
+                {
+                    if (!string.IsNullOrWhiteSpace(txtTemperaturaPlaneta.Text)
+                        && !string.IsNullOrWhiteSpace(txtDistanciaPrimerEstrella.Text)
+                        && !string.IsNullOrWhiteSpace(txtDistanciaSegundaEstrella.Text)
+                        && int.TryParse(txtTemperaturaPlaneta.Text, out int numero)
+                        && double.TryParse(txtDistanciaPrimerEstrella.Text, out double numero2)
+                        && double.TryParse(txtDistanciaSegundaEstrella.Text, out double numero3))
+                    {
+                        Estrella primerEstrella = lstEstrellasAsignadas.Items[0] as Estrella;
+                        Estrella segundaEstrella = lstEstrellasAsignadas.Items[1] as Estrella;
+                        double distanciaPrimerEstrella = Convert.ToDouble(txtDistanciaPrimerEstrella.Text);
+                        double distanciaSegundaEstrella = Convert.ToDouble(txtDistanciaSegundaEstrella.Text);
+                        List<Satelite> satelitesAsignados = lstSatelitesAsignados.Items.Cast<Satelite>().ToList();
 
+                        if (esCarga)
+                        {
+                            CuerpoCeleste nuevoPlaneta = new Planeta(txtNombre.Text, Convert.ToInt32(txtEdad.Text), Convert.ToInt32(txtMasa.Text), Convert.ToInt32(txtTemperaturaPlaneta.Text), true)
+                            {
+                                primerEstrella = primerEstrella,
+                                segundaEstrella = segundaEstrella,
+                                distanciaPrimerEstrella = distanciaPrimerEstrella,
+                                distanciaSegundaEstrella = distanciaSegundaEstrella,
+                                satelites = satelitesAsignados
+                            };
+
+                            _obsRegistroCuerpoCeleste.registros.Add(RegistrarObjetoEncontrado((Descubridor)cmbObservadorCarga.SelectedItem, nuevoPlaneta));
+                            _obsRegistroCuerpoCeleste.objetosEncontrados.Add(nuevoPlaneta);
+                            MessageBox.Show("Se guardó el nuevo planeta con éxito!", "Operación exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            InicializarMenuCarga();
+                            esCarga = false;
+                        }
+                        else if(esEditar)
+                        {
+                            if (_obsRegistroCuerpoCeleste.objetosEncontrados.Contains(CuerpoCelesteActual()))
+                            {
+                                int indice = _obsRegistroCuerpoCeleste.objetosEncontrados.FindIndex(o => o.id == CuerpoCelesteActual().id);
+                                _obsRegistroCuerpoCeleste.objetosEncontrados[indice] = new Planeta(txtNombreAEditar.Text, Convert.ToInt32(txtEdadAEditar.Text), Convert.ToInt32(txtMasaAEditar.Text), Convert.ToInt32(txtTemperaturaPlaneta.Text), true)
+                                {
+                                    primerEstrella = primerEstrella,
+                                    segundaEstrella = segundaEstrella,
+                                    distanciaPrimerEstrella = distanciaPrimerEstrella,
+                                    distanciaSegundaEstrella = distanciaSegundaEstrella,
+                                    satelites = satelitesAsignados
+                                };
+                                MessageBox.Show("Se editó el planeta con éxito!", "Operación exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                InicializarMenuCarga();
+                            }
+                            esEditar = false;
+                        }
+                    }
+                }
+            }
+            else
+            {
+                if (lstEstrellasAsignadas.Items.Count == 1
+                    && lstSatelitesAsignados.Items.Count > 0)
+                {
+                    if (!string.IsNullOrWhiteSpace(txtTemperaturaPlaneta.Text)
+                        && !string.IsNullOrWhiteSpace(txtDistanciaPrimerEstrella.Text)
+                        && int.TryParse(txtTemperaturaPlaneta.Text, out int numero)
+                        && double.TryParse(txtDistanciaPrimerEstrella.Text, out double numero2))
+                    {
+                        Estrella primerEstrella = lstEstrellasAsignadas.Items[0] as Estrella;
+                        double distanciaPrimerEstrella = Convert.ToDouble(txtDistanciaPrimerEstrella.Text);
+                        List<Satelite> satelitesAsignados = lstSatelitesAsignados.Items.Cast<Satelite>().ToList();
+
+                        if (esCarga)
+                        {
+                            CuerpoCeleste nuevoPlaneta = new Planeta(txtNombre.Text, Convert.ToInt32(txtEdad.Text), Convert.ToInt32(txtMasa.Text), Convert.ToInt32(txtTemperaturaPlaneta.Text))
+                            {
+                                primerEstrella = primerEstrella,
+                                distanciaPrimerEstrella = distanciaPrimerEstrella,
+                                satelites = satelitesAsignados
+                            };
+
+                            _obsRegistroCuerpoCeleste.registros.Add(RegistrarObjetoEncontrado((Descubridor)cmbObservadorCarga.SelectedItem, nuevoPlaneta));
+                            _obsRegistroCuerpoCeleste.objetosEncontrados.Add(nuevoPlaneta);
+                            MessageBox.Show("Se guardó el nuevo planeta con éxito!", "Operación exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            InicializarMenuCarga();
+                            esCarga = false;
+
+                        }
+                        else if (esEditar)
+                        {
+                            if (_obsRegistroCuerpoCeleste.objetosEncontrados.Contains(CuerpoCelesteActual()))
+                            {
+                                int indice = _obsRegistroCuerpoCeleste.objetosEncontrados.FindIndex(o => o.id == CuerpoCelesteActual().id);
+                                _obsRegistroCuerpoCeleste.objetosEncontrados[indice] = new Planeta(txtNombreAEditar.Text, Convert.ToInt32(txtEdadAEditar.Text), Convert.ToInt32(txtMasaAEditar.Text), Convert.ToInt32(txtTemperaturaPlaneta.Text))
+                                {
+                                    primerEstrella = primerEstrella,
+                                    distanciaPrimerEstrella = distanciaPrimerEstrella,
+                                    satelites = satelitesAsignados
+                                };
+                                MessageBox.Show("Se editó el planeta con éxito!", "Operación exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                InicializarMenuCarga();
+                            }
+                            esEditar = false;
+                        }
+                    }
+                }
+            }
         }
 
         private void btnAsignarEstrella_Click(object sender, EventArgs e)
@@ -441,12 +544,10 @@ namespace Ejercicio_9
                 if(rdBinario.Checked == true && lstEstrellasAsignadas.Items.Count == 1)
                 {
                     lstEstrellasAsignadas.Items.Add(lstEstrellasNoAsignadas.SelectedItem);
-                    txtSegundaEstrellaAsignada.Text = lstEstrellasNoAsignadas.SelectedItem.ToString();
                 }
                 else if(lstEstrellasAsignadas.Items.Count == 0)
                 {
                     lstEstrellasAsignadas.Items.Add(lstEstrellasNoAsignadas.SelectedItem);
-                    txtPrimerEstrellaAsignada.Text = lstEstrellasNoAsignadas.SelectedItem.ToString();
                 }
                 else
                 {
@@ -499,12 +600,28 @@ namespace Ejercicio_9
             }
             else if (esPlaneta)
             {
-                CuerpoCeleste nuevoSatelite = new Satelite($"Satelite empty from Planeta ID:{CuerpoCelesteActual().id}", 0, 0, poseeAcoplamiento);
+                CuerpoCeleste nuevoSatelite = new Satelite($"Satelite empty from Planeta", 0, 0, poseeAcoplamiento);
                 _obsRegistroCuerpoCeleste.objetosEncontrados.Add(nuevoSatelite);
                 _obsRegistroCuerpoCeleste.registros.Add(RegistrarObjetoEncontrado((Descubridor)cmbObservadorCarga.SelectedItem, nuevoSatelite));
                 MessageBox.Show("Se guardó el nuevo satelite con éxito!", "Operación exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 PrepararEdicionPlaneta();
+
+                int cantidadDeSatelites = _obsRegistroCuerpoCeleste.objetosEncontrados.Count(s => s is Satelite);
+
+                if (cantidadDeSatelites > 0)
+                {
+                    lstSatelitesNoAsignados.DataSource = null;
+                    List<Satelite> listaFiltrada2 = _obsRegistroCuerpoCeleste.objetosEncontrados.OfType<Satelite>().OrderBy(s => s.id).ToList();
+                        /*(from Satelite satelite in _obsRegistroCuerpoCeleste.objetosEncontrados
+                        where satelite is Satelite
+                        orderby satelite.id ascending
+                        select (Satelite)satelite).ToList();
+                        */
+                    lstSatelitesNoAsignados.DataSource = listaFiltrada2;
+                }
+
                 esPlaneta = false;
+                esCarga = true;
             }
         }
     }
