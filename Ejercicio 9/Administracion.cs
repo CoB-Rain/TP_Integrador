@@ -28,7 +28,15 @@ namespace Ejercicio_9
         public Observatorio observatorioAdm
         {
             get { return _obsAdministracion; }
-            set { _obsAdministracion = value; }
+            set { _obsAdministracion = value;
+                InicializarObjetos();
+            }
+        }
+
+        public void InicializarObjetos()
+        {
+            dgvResultado.DataSource = null;
+            dgvResultado.DataSource = _obsAdministracion.objetosEncontrados.ToList();
         }
 
         public double ConvertirDistancia(double distancia, string unidad)
@@ -121,12 +129,29 @@ namespace Ejercicio_9
 
         private void btnFiltrarPlaneta_Click(object sender, EventArgs e)
         {
-
+            if(_obsAdministracion.objetosEncontrados.Count > 0)
+            {
+                if(!string.IsNullOrWhiteSpace(txtNombrePlaneta.Text))
+                {
+                    List<Planeta> listaFiltradaPlaneta = _obsAdministracion.objetosEncontrados.OfType<Planeta>().OrderBy(t => t.nombre).ToList();
+                }
+            }
+            else
+            {
+                MessageBox.Show("No se han encontrado objetos celestes todavia...", "Error de operación", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void btnFiltrarEstrella_Click(object sender, EventArgs e)
         {
-
+            if (_obsAdministracion.objetosEncontrados.Count > 0)
+            {
+                
+            }
+            else
+            {
+                MessageBox.Show("No se han encontrado objetos celestes todavia...", "Error de operación", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void rdAñosLuz_CheckedChanged(object sender, EventArgs e)

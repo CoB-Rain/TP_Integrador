@@ -20,7 +20,7 @@ namespace Ejercicio_9
 
         private void RegistroDescubridor_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private Observatorio _obsRegistroDescubridor = new Observatorio();
