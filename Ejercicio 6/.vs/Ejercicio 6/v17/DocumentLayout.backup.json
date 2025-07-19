@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B678248E-07A5-46BE-825C-3809CC6D6293}|Ejercicio 6.csproj|C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B678248E-07A5-46BE-825C-3809CC6D6293}|Ejercicio 6.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B678248E-07A5-46BE-825C-3809CC6D6293}|Ejercicio 6.csproj|C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B678248E-07A5-46BE-825C-3809CC6D6293}|Ejercicio 6.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B678248E-07A5-46BE-825C-3809CC6D6293}|Ejercicio 6.csproj|c:\\users\\brian\\onedrive\\escritorio\\programacion\\poo\\tp_integrador\\ejercicio 6\\gestionhuespedes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B678248E-07A5-46BE-825C-3809CC6D6293}|Ejercicio 6.csproj|solutionrelative:gestionhuespedes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CC6BD1-14EC-4701-96BD-26C2C6BD8798}|HotelDLL\\HotelDLL.csproj|c:\\users\\brian\\onedrive\\escritorio\\programacion\\poo\\tp_integrador\\ejercicio 6\\hoteldll\\hotelturistico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26CC6BD1-14EC-4701-96BD-26C2C6BD8798}|HotelDLL\\HotelDLL.csproj|solutionrelative:hoteldll\\hotelturistico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B678248E-07A5-46BE-825C-3809CC6D6293}|Ejercicio 6.csproj|C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\gestionhuespedes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B678248E-07A5-46BE-825C-3809CC6D6293}|Ejercicio 6.csproj|solutionrelative:gestionhuespedes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26CC6BD1-14EC-4701-96BD-26C2C6BD8798}|HotelDLL\\HotelDLL.csproj|C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\hoteldll\\huesped.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26CC6BD1-14EC-4701-96BD-26C2C6BD8798}|HotelDLL\\HotelDLL.csproj|solutionrelative:hoteldll\\huesped.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26CC6BD1-14EC-4701-96BD-26C2C6BD8798}|HotelDLL\\HotelDLL.csproj|C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\hoteldll\\reservaconadicional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26CC6BD1-14EC-4701-96BD-26C2C6BD8798}|HotelDLL\\HotelDLL.csproj|solutionrelative:hoteldll\\reservaconadicional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26CC6BD1-14EC-4701-96BD-26C2C6BD8798}|HotelDLL\\HotelDLL.csproj|C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\hoteldll\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26CC6BD1-14EC-4701-96BD-26C2C6BD8798}|HotelDLL\\HotelDLL.csproj|solutionrelative:hoteldll\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26CC6BD1-14EC-4701-96BD-26C2C6BD8798}|HotelDLL\\HotelDLL.csproj|c:\\users\\brian\\onedrive\\escritorio\\programacion\\poo\\tp_integrador\\ejercicio 6\\hoteldll\\hotelturistico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26CC6BD1-14EC-4701-96BD-26C2C6BD8798}|HotelDLL\\HotelDLL.csproj|solutionrelative:hoteldll\\hotelturistico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B678248E-07A5-46BE-825C-3809CC6D6293}|Ejercicio 6.csproj|C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\administraci\u00F3nhotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -43,24 +63,8 @@
       "RelativeMoniker": "D:0:0:{26CC6BD1-14EC-4701-96BD-26C2C6BD8798}|HotelDLL\\HotelDLL.csproj|solutionrelative:hoteldll\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CC6BD1-14EC-4701-96BD-26C2C6BD8798}|HotelDLL\\HotelDLL.csproj|C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\hoteldll\\huesped.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26CC6BD1-14EC-4701-96BD-26C2C6BD8798}|HotelDLL\\HotelDLL.csproj|solutionrelative:hoteldll\\huesped.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B678248E-07A5-46BE-825C-3809CC6D6293}|Ejercicio 6.csproj|C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\gestionreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B678248E-07A5-46BE-825C-3809CC6D6293}|Ejercicio 6.csproj|solutionrelative:gestionreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B678248E-07A5-46BE-825C-3809CC6D6293}|Ejercicio 6.csproj|C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B678248E-07A5-46BE-825C-3809CC6D6293}|Ejercicio 6.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B678248E-07A5-46BE-825C-3809CC6D6293}|Ejercicio 6.csproj|C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B678248E-07A5-46BE-825C-3809CC6D6293}|Ejercicio 6.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26CC6BD1-14EC-4701-96BD-26C2C6BD8798}|HotelDLL\\HotelDLL.csproj|C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\hoteldll\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26CC6BD1-14EC-4701-96BD-26C2C6BD8798}|HotelDLL\\HotelDLL.csproj|solutionrelative:hoteldll\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26CC6BD1-14EC-4701-96BD-26C2C6BD8798}|HotelDLL\\HotelDLL.csproj|C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\hoteldll\\tipohabitacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -73,10 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{26CC6BD1-14EC-4701-96BD-26C2C6BD8798}|HotelDLL\\HotelDLL.csproj|C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\hoteldll\\adicional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26CC6BD1-14EC-4701-96BD-26C2C6BD8798}|HotelDLL\\HotelDLL.csproj|solutionrelative:hoteldll\\adicional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26CC6BD1-14EC-4701-96BD-26C2C6BD8798}|HotelDLL\\HotelDLL.csproj|C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\hoteldll\\reservaconadicional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26CC6BD1-14EC-4701-96BD-26C2C6BD8798}|HotelDLL\\HotelDLL.csproj|solutionrelative:hoteldll\\reservaconadicional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -85,12 +85,12 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 78,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 42,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "ClassDiagram1.cd",
               "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\ClassDiagram1.cd",
               "RelativeDocumentMoniker": "HotelDLL\\ClassDiagram1.cd",
@@ -102,20 +102,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "HotelTuristico.cs",
               "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\HotelTuristico.cs",
               "RelativeDocumentMoniker": "HotelDLL\\HotelTuristico.cs",
               "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\HotelTuristico.cs",
               "RelativeToolTip": "HotelDLL\\HotelTuristico.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAADAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwA8AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-01T03:40:16.21Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 6,
               "Title": "Reserva.cs",
               "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\Reserva.cs",
               "RelativeDocumentMoniker": "HotelDLL\\Reserva.cs",
@@ -123,11 +123,12 @@
               "RelativeToolTip": "HotelDLL\\Reserva.cs",
               "ViewState": "AgIAAFIAAAAAAAAAAAAuwGUAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T02:52:09.563Z"
+              "WhenOpened": "2025-07-01T02:52:09.563Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 5,
               "Title": "ReservaConAdicional.cs",
               "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\ReservaConAdicional.cs",
               "RelativeDocumentMoniker": "HotelDLL\\ReservaConAdicional.cs",
@@ -135,11 +136,12 @@
               "RelativeToolTip": "HotelDLL\\ReservaConAdicional.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T03:42:27.115Z"
+              "WhenOpened": "2025-06-27T03:42:27.115Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Adicional.cs",
               "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\Adicional.cs",
               "RelativeDocumentMoniker": "HotelDLL\\Adicional.cs",
@@ -151,19 +153,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "Huesped.cs",
               "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\Huesped.cs",
               "RelativeDocumentMoniker": "HotelDLL\\Huesped.cs",
               "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\Huesped.cs",
               "RelativeToolTip": "HotelDLL\\Huesped.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowA8AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T04:03:56.365Z"
+              "WhenOpened": "2025-06-27T04:03:56.365Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Habitacion.cs",
               "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\Habitacion.cs",
               "RelativeDocumentMoniker": "HotelDLL\\Habitacion.cs",
@@ -175,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "TipoHabitacion.cs",
               "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\HotelDLL\\TipoHabitacion.cs",
               "RelativeDocumentMoniker": "HotelDLL\\TipoHabitacion.cs",
@@ -188,8 +191,8 @@
           ]
         },
         {
-          "DockedWidth": 347,
-          "SelectedChildIndex": 8,
+          "DockedWidth": 383,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -205,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -217,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "GestionReservas.cs",
               "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\GestionReservas.cs",
               "RelativeDocumentMoniker": "GestionReservas.cs",
@@ -229,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "GestionReservas.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\GestionReservas.cs",
               "RelativeDocumentMoniker": "GestionReservas.cs",
@@ -240,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "GestionHabitaciones.cs",
               "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\GestionHabitaciones.cs",
               "RelativeDocumentMoniker": "GestionHabitaciones.cs",
@@ -252,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "GestionHabitaciones.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\GestionHabitaciones.cs",
               "RelativeDocumentMoniker": "GestionHabitaciones.cs",
@@ -263,31 +266,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "GestionHuespedes.cs",
               "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\GestionHuespedes.cs",
               "RelativeDocumentMoniker": "GestionHuespedes.cs",
               "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\GestionHuespedes.cs",
               "RelativeToolTip": "GestionHuespedes.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAuwCQAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAkAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-05T14:57:50.926Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "GestionHuespedes.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\GestionHuespedes.cs",
               "RelativeDocumentMoniker": "GestionHuespedes.cs",
               "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\GestionHuespedes.cs [Dise\u00F1o]",
               "RelativeToolTip": "GestionHuespedes.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T14:57:49.181Z"
+              "WhenOpened": "2025-07-05T14:57:49.181Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Administraci\u00F3nHotel.cs",
               "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\Administraci\u00F3nHotel.cs",
               "RelativeDocumentMoniker": "Administraci\u00F3nHotel.cs",
@@ -299,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Administraci\u00F3nHotel.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\Administraci\u00F3nHotel.cs",
               "RelativeDocumentMoniker": "Administraci\u00F3nHotel.cs",
@@ -310,26 +314,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAuwDEAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAcwHMAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T01:47:25.138Z"
+              "WhenOpened": "2025-06-27T01:47:25.138Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP Integrador\\Ejercicio 6\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\TP Integrador\\Ejercicio 6\\Form1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Programacion\\POO\\TP_Integrador\\Ejercicio 6\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T01:47:01.871Z"
+              "WhenOpened": "2025-06-27T01:47:01.871Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }
